@@ -13,17 +13,10 @@ class TableViewController: UITableViewController {
     
     
     // MARK: Team List
-    var Teams: [String] = ["Arsenal","Bournemouth","Brighton","Burnley","Cardiff","Chelsea","Crystal Palace","Everton","Fulham","Huddersfield","Leicester","Liverpool","Man City","Man Utd","Newcastle","Southampton","Tottenham","Watford","West Ham","Wolves"]
-    
+    var Teams: [String] = ["Arsenal","Aston Villa","Brighton","Burnley","Chelsea","Crystal Palace","Everton","Fulham","Leeds Utd","Leicester","Liverpool","Man City","Man Utd","Newcastle","Sheffield Utd","Southampton","Tottenham","West Brom","West Ham","Wolves"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +25,6 @@ class TableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -44,7 +36,6 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TeamCell", for: indexPath)
-
         // Configure the cell...
         cell.textLabel?.text = Teams[indexPath.row]
         let teamIcon: UIImage=UIImage(named: cell.textLabel!.text!)!
@@ -96,7 +87,7 @@ class TableViewController: UITableViewController {
         super.prepare(for: segue, sender: sender)
         switch(segue.identifier ?? "") {
         case "showHelp":
-            print("help page")
+            NSLog("Loading Help Page")
         case "showDetail":
             let indexPath = tableView.indexPathForSelectedRow!
             let selected = indexPath.row
@@ -107,6 +98,4 @@ class TableViewController: UITableViewController {
             fatalError("Unexpected Segue Identifier: \(String(describing: segue.identifier))")
         }
     }
-    
-
 }

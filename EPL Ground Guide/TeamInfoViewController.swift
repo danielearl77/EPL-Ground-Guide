@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class TeamInfoViewController: UIViewController {
+class TeamInfoViewController: UIViewController, GADBannerViewDelegate {
 
     @IBOutlet weak var byCar: UITextView!
     @IBOutlet weak var byTrain: UITextView!
     @IBOutlet weak var byDrink: UITextView!
+    @IBOutlet weak var bannerView: GADBannerView!
     
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        if (bannerView.isHidden) {
+            bannerView.isHidden = false
+        }
+    }
     
-    
+    func adView(_ bannerView: GADBannerView,
+                didFailToReceiveAdWithError error: GADRequestError) {
+        NSLog("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+        bannerView.isHidden = true
+    }
     
     override func viewDidLoad() {
         let carInfo = (parent as! TeamViewController).teamCarInfo
@@ -27,8 +38,11 @@ class TeamInfoViewController: UIViewController {
         byTrain.sizeToFit()
         byDrink.text = drinkInfo
         byDrink.sizeToFit()
+        byDrink.textContainerInset = UIEdgeInsets(top: 8,left: 0,bottom: 50,right: 0)
         super.viewDidLoad()
-
+        bannerView.adUnitID = "ca-app-pub-1798485712270431"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
         // Do any additional setup after loading the view.
     }
 
@@ -36,16 +50,4 @@ class TeamInfoViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

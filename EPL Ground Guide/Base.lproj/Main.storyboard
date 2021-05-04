@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,15 +11,15 @@
         <!--Help-->
         <scene sceneID="yPH-XW-7zK">
             <objects>
-                <viewController title="Help" id="cXv-BJ-HG9" sceneMemberID="viewController">
+                <viewController title="Help" id="cXv-BJ-HG9" customClass="HelpViewController" customModule="EPL_Grounds" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3jD-qd-whJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
                                 <rect key="frame" x="16" y="108" width="343" height="650"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Premier Ground Guide.
+                                <string key="text">EPL Ground Guide.
 A fan travel guide to all of the EPL grounds.
 
 This app aims to provide travel information for fans travelling to Premier League football matches.    
@@ -41,7 +39,7 @@ www.phone-app.co.uk
 
 To get in touch please use the contact form on the website.
 
-© 2012-2018.</string>
+© 2012-2020.</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -61,7 +59,7 @@ To get in touch please use the contact form on the website.
             </objects>
             <point key="canvasLocation" x="1816.8" y="-587.85607196401804"/>
         </scene>
-        <!--EPL Grounds-->
+        <!--EPL Ground Guide-->
         <scene sceneID="Y4j-rL-wyx">
             <objects>
                 <tableViewController id="LLO-1H-T0a" customClass="TableViewController" customModule="EPL_Grounds" customModuleProvider="target" sceneMemberID="viewController">
@@ -74,11 +72,11 @@ To get in touch please use the contact form on the website.
                                 <rect key="frame" x="0.0" y="28" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bzZ-9E-UwN" id="JRb-kg-O3z">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="39.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gj0-GK-WXh">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="39.666666666666664"/>
+                                            <rect key="frame" x="16" y="0.0" width="343" height="40"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -96,9 +94,10 @@ To get in touch please use the contact form on the website.
                             <outlet property="delegate" destination="LLO-1H-T0a" id="nBS-B3-0Ul"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="EPL Grounds" id="t0d-we-es6">
+                    <navigationItem key="navigationItem" title="EPL Ground Guide" id="t0d-we-es6">
                         <barButtonItem key="backBarButtonItem" title="Home" id="RDb-R9-aXj"/>
-                        <barButtonItem key="rightBarButtonItem" title="Help" id="uHW-dK-tAs">
+                        <barButtonItem key="rightBarButtonItem" image="aboutIcon" id="uHW-dK-tAs">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="cXv-BJ-HG9" kind="show" identifier="showHelp" id="k9Q-um-eFe"/>
                             </connections>
@@ -120,7 +119,7 @@ To get in touch please use the contact form on the website.
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dzi-Qe-Jno">
                                 <rect key="frame" x="-4" y="88" width="383" height="641"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="DSg-Tr-zBF">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSg-Tr-zBF">
                                         <rect key="frame" x="20" y="46" width="343" height="33"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
@@ -144,13 +143,13 @@ To get in touch please use the contact form on the website.
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="loY-Xc-GAs">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loY-Xc-GAs">
                                         <rect key="frame" x="20" y="110" width="343" height="33"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-3b-QGM">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-3b-QGM">
                                         <rect key="frame" x="20" y="174" width="343" height="33"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -180,18 +179,29 @@ To get in touch please use the contact form on the website.
                                     <constraint firstItem="DSg-Tr-zBF" firstAttribute="leading" secondItem="Vh5-cl-lvd" secondAttribute="leading" id="zMr-45-s49"/>
                                 </constraints>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0Y-yW-7EC" customClass="GADBannerView">
+                                <rect key="frame" x="27.666666666666657" y="679" width="320" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bp8-Oq-9Em"/>
+                                    <constraint firstAttribute="width" constant="320" id="wa1-dl-dlg"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="top" secondItem="29J-Id-tkH" secondAttribute="top" id="Iyz-kb-P0y"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="bottom" secondItem="29J-Id-tkH" secondAttribute="bottom" id="Zfz-F8-dOv"/>
+                            <constraint firstItem="X0Y-yW-7EC" firstAttribute="centerX" secondItem="Dzi-Qe-Jno" secondAttribute="centerX" id="Tw4-n6-nlo"/>
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="leading" secondItem="jsM-4h-Sb2" secondAttribute="leadingMargin" constant="-20" id="i8U-Zn-IIR"/>
+                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="bottom" secondItem="X0Y-yW-7EC" secondAttribute="bottom" id="ocL-n8-clF"/>
+                            <constraint firstItem="X0Y-yW-7EC" firstAttribute="bottom" secondItem="29J-Id-tkH" secondAttribute="bottom" id="ttc-Ee-3pK"/>
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="centerX" secondItem="jsM-4h-Sb2" secondAttribute="centerX" id="wLr-WP-VbH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="29J-Id-tkH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="infoIconSet" id="Sba-g8-tiE"/>
                     <connections>
+                        <outlet property="bannerView" destination="X0Y-yW-7EC" id="FZ7-0Q-FNd"/>
                         <outlet property="byCar" destination="DSg-Tr-zBF" id="cav-ez-rGy"/>
                         <outlet property="byDrink" destination="TZS-3b-QGM" id="wuM-Me-3ds"/>
                         <outlet property="byTrain" destination="loY-Xc-GAs" id="bZC-nv-Kxy"/>
@@ -199,7 +209,7 @@ To get in touch please use the contact form on the website.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NM5-vw-7Hl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3712.8000000000002" y="-639.13043478260875"/>
+            <point key="canvasLocation" x="3712.8000000000002" y="-639.16256157635473"/>
         </scene>
         <!--Map-->
         <scene sceneID="Avr-uc-MxA">
@@ -235,7 +245,7 @@ To get in touch please use the contact form on the website.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a5-c2-doS">
-                                <rect key="frame" x="0.0" y="88" width="374" height="641"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -379,6 +389,7 @@ To get in touch please use the contact form on the website.
         </scene>
     </scenes>
     <resources>
+        <image name="aboutIcon" width="30" height="30"/>
         <image name="fixturesIconSet" width="23" height="23"/>
         <image name="infoIconSet" width="23" height="23"/>
         <image name="mapIconSet" width="23" height="23"/>

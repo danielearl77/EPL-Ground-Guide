@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,16 +12,29 @@
 		146736EC210CC709007ED0C9 /* TeamFixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146736EB210CC709007ED0C9 /* TeamFixturesViewController.swift */; };
 		146736F0210CCE22007ED0C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146736EF210CCE22007ED0C9 /* MapKit.framework */; };
 		146736F2210CD416007ED0C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146736F1210CD416007ED0C9 /* CoreLocation.framework */; };
+		148080A724F2C22A0048BB38 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148080A624F2C22A0048BB38 /* StoreKit.framework */; };
+		148080AB24F2C4800048BB38 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148080AA24F2C4800048BB38 /* HelpViewController.swift */; };
 		14B4DDC62104B66A00338B40 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4DDC52104B66A00338B40 /* TeamViewController.swift */; };
 		14B4DDC92104DB0600338B40 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4DDC82104DB0600338B40 /* WebKit.framework */; };
 		14B4DDCB2104DF9A00338B40 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4DDCA2104DF9A00338B40 /* TrainViewController.swift */; };
 		14BB191321286791001DC1A7 /* iStock-917610906.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14BB191221286791001DC1A7 /* iStock-917610906.jpg */; };
+		14F55278226C7DB200C8A7A8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F55277226C7DB200C8A7A8 /* AdSupport.framework */; };
+		14F55284226C7E1000C8A7A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5527A226C7E1000C8A7A8 /* AudioToolbox.framework */; };
+		14F55285226C7E1000C8A7A8 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5527B226C7E1000C8A7A8 /* EventKitUI.framework */; };
+		14F55286226C7E1000C8A7A8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5527C226C7E1000C8A7A8 /* CoreMedia.framework */; };
+		14F55287226C7E1000C8A7A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5527D226C7E1000C8A7A8 /* AVFoundation.framework */; };
+		14F55288226C7E1000C8A7A8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5527E226C7E1000C8A7A8 /* EventKit.framework */; };
+		14F55289226C7E1000C8A7A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5527F226C7E1000C8A7A8 /* MessageUI.framework */; };
+		14F5528A226C7E1000C8A7A8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F55280226C7E1000C8A7A8 /* CoreTelephony.framework */; };
+		14F5528B226C7E1000C8A7A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F55281226C7E1000C8A7A8 /* CoreGraphics.framework */; };
+		14F5528C226C7E1000C8A7A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F55282226C7E1000C8A7A8 /* SystemConfiguration.framework */; };
 		52CF3D6720EBD72A009F4013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF3D6620EBD72A009F4013 /* AppDelegate.swift */; };
 		52CF3D6920EBD72A009F4013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF3D6820EBD72A009F4013 /* ViewController.swift */; };
 		52CF3D6C20EBD72A009F4013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CF3D6A20EBD72A009F4013 /* Main.storyboard */; };
 		52CF3D6E20EBD72B009F4013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CF3D6D20EBD72B009F4013 /* Assets.xcassets */; };
 		52CF3D7120EBD72B009F4013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CF3D6F20EBD72B009F4013 /* LaunchScreen.storyboard */; };
 		52CF3D7920EBD7F9009F4013 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF3D7820EBD7F9009F4013 /* TableViewController.swift */; };
+		98B7F50610A2E012E7DD6B2E /* Pods_EPL_Grounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A512A191D816949E720D382F /* Pods_EPL_Grounds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +43,24 @@
 		146736EB210CC709007ED0C9 /* TeamFixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamFixturesViewController.swift; sourceTree = "<group>"; };
 		146736EF210CCE22007ED0C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		146736F1210CD416007ED0C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		148080A624F2C22A0048BB38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		148080AA24F2C4800048BB38 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		14B4DDC52104B66A00338B40 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		14B4DDC82104DB0600338B40 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		14B4DDCA2104DF9A00338B40 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
 		14BB191221286791001DC1A7 /* iStock-917610906.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iStock-917610906.jpg"; sourceTree = "<group>"; };
+		14F55277226C7DB200C8A7A8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		14F5527A226C7E1000C8A7A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14F5527B226C7E1000C8A7A8 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		14F5527C226C7E1000C8A7A8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		14F5527D226C7E1000C8A7A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14F5527E226C7E1000C8A7A8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		14F5527F226C7E1000C8A7A8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		14F55280226C7E1000C8A7A8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		14F55281226C7E1000C8A7A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14F55282226C7E1000C8A7A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18700817774DE7BC0784FDEB /* Pods-EPL Grounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPL Grounds.debug.xcconfig"; path = "Target Support Files/Pods-EPL Grounds/Pods-EPL Grounds.debug.xcconfig"; sourceTree = "<group>"; };
+		427C8FA508107237C737F97C /* Pods-EPL Grounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EPL Grounds.release.xcconfig"; path = "Target Support Files/Pods-EPL Grounds/Pods-EPL Grounds.release.xcconfig"; sourceTree = "<group>"; };
 		52CF3D6320EBD729009F4013 /* EPL Grounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPL Grounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CF3D6620EBD72A009F4013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52CF3D6820EBD72A009F4013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +69,7 @@
 		52CF3D7020EBD72B009F4013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52CF3D7220EBD72B009F4013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52CF3D7820EBD7F9009F4013 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A512A191D816949E720D382F /* Pods_EPL_Grounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EPL_Grounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +77,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F55284226C7E1000C8A7A8 /* AudioToolbox.framework in Frameworks */,
+				14F55285226C7E1000C8A7A8 /* EventKitUI.framework in Frameworks */,
+				14F55286226C7E1000C8A7A8 /* CoreMedia.framework in Frameworks */,
+				14F55287226C7E1000C8A7A8 /* AVFoundation.framework in Frameworks */,
+				14F55288226C7E1000C8A7A8 /* EventKit.framework in Frameworks */,
+				14F55289226C7E1000C8A7A8 /* MessageUI.framework in Frameworks */,
+				14F5528A226C7E1000C8A7A8 /* CoreTelephony.framework in Frameworks */,
+				14F5528B226C7E1000C8A7A8 /* CoreGraphics.framework in Frameworks */,
+				14F5528C226C7E1000C8A7A8 /* SystemConfiguration.framework in Frameworks */,
+				14F55278226C7DB200C8A7A8 /* AdSupport.framework in Frameworks */,
 				146736F2210CD416007ED0C9 /* CoreLocation.framework in Frameworks */,
 				146736F0210CCE22007ED0C9 /* MapKit.framework in Frameworks */,
+				148080A724F2C22A0048BB38 /* StoreKit.framework in Frameworks */,
 				14B4DDC92104DB0600338B40 /* WebKit.framework in Frameworks */,
+				98B7F50610A2E012E7DD6B2E /* Pods_EPL_Grounds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +101,32 @@
 		14B4DDC72104DB0500338B40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				148080A624F2C22A0048BB38 /* StoreKit.framework */,
+				14F5527A226C7E1000C8A7A8 /* AudioToolbox.framework */,
+				14F5527D226C7E1000C8A7A8 /* AVFoundation.framework */,
+				14F55281226C7E1000C8A7A8 /* CoreGraphics.framework */,
+				14F5527C226C7E1000C8A7A8 /* CoreMedia.framework */,
+				14F55280226C7E1000C8A7A8 /* CoreTelephony.framework */,
+				14F5527E226C7E1000C8A7A8 /* EventKit.framework */,
+				14F5527B226C7E1000C8A7A8 /* EventKitUI.framework */,
+				14F5527F226C7E1000C8A7A8 /* MessageUI.framework */,
+				14F55282226C7E1000C8A7A8 /* SystemConfiguration.framework */,
+				14F55277226C7DB200C8A7A8 /* AdSupport.framework */,
 				146736F1210CD416007ED0C9 /* CoreLocation.framework */,
 				146736EF210CCE22007ED0C9 /* MapKit.framework */,
 				14B4DDC82104DB0600338B40 /* WebKit.framework */,
+				A512A191D816949E720D382F /* Pods_EPL_Grounds.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3428E4C0E0BD3CA0B1F0943B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18700817774DE7BC0784FDEB /* Pods-EPL Grounds.debug.xcconfig */,
+				427C8FA508107237C737F97C /* Pods-EPL Grounds.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		52CF3D5A20EBD729009F4013 = {
@@ -74,6 +135,7 @@
 				52CF3D6520EBD729009F4013 /* EPL Ground Guide */,
 				52CF3D6420EBD729009F4013 /* Products */,
 				14B4DDC72104DB0500338B40 /* Frameworks */,
+				3428E4C0E0BD3CA0B1F0943B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +153,7 @@
 				52CF3D6620EBD72A009F4013 /* AppDelegate.swift */,
 				52CF3D6820EBD72A009F4013 /* ViewController.swift */,
 				52CF3D6A20EBD72A009F4013 /* Main.storyboard */,
+				148080AA24F2C4800048BB38 /* HelpViewController.swift */,
 				146736E9210CC6D5007ED0C9 /* TeamMapViewController.swift */,
 				146736EB210CC709007ED0C9 /* TeamFixturesViewController.swift */,
 				146736E7210CC269007ED0C9 /* TeamInfoViewController.swift */,
@@ -112,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52CF3D7520EBD72B009F4013 /* Build configuration list for PBXNativeTarget "EPL Grounds" */;
 			buildPhases = (
+				A300177B1ED4D0D5934188AB /* [CP] Check Pods Manifest.lock */,
 				52CF3D5F20EBD729009F4013 /* Sources */,
 				52CF3D6020EBD729009F4013 /* Frameworks */,
 				52CF3D6120EBD729009F4013 /* Resources */,
+				8DE347C79FDBD549C5090B62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +202,7 @@
 				TargetAttributes = {
 					52CF3D6220EBD729009F4013 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1160;
 						SystemCapabilities = {
 							com.apple.GameCenter.iOS = {
 								enabled = 0;
@@ -183,6 +249,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DE347C79FDBD549C5090B62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPL Grounds/Pods-EPL Grounds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EPL Grounds/Pods-EPL Grounds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EPL Grounds/Pods-EPL Grounds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A300177B1ED4D0D5934188AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EPL Grounds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52CF3D5F20EBD729009F4013 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -192,6 +300,7 @@
 				146736E8210CC269007ED0C9 /* TeamInfoViewController.swift in Sources */,
 				14B4DDC62104B66A00338B40 /* TeamViewController.swift in Sources */,
 				14B4DDCB2104DF9A00338B40 /* TrainViewController.swift in Sources */,
+				148080AB24F2C4800048BB38 /* HelpViewController.swift in Sources */,
 				146736EA210CC6D5007ED0C9 /* TeamMapViewController.swift in Sources */,
 				52CF3D7920EBD7F9009F4013 /* TableViewController.swift in Sources */,
 				146736EC210CC709007ED0C9 /* TeamFixturesViewController.swift in Sources */,
@@ -338,44 +447,64 @@
 		};
 		52CF3D7620EBD72B009F4013 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18700817774DE7BC0784FDEB /* Pods-EPL Grounds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLNPC5X4J8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+				);
 				INFOPLIST_FILE = "EPL Ground Guide/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 5.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "earldr.PL-Grounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		52CF3D7720EBD72B009F4013 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427C8FA508107237C737F97C /* Pods-EPL Grounds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLNPC5X4J8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+					"$(PROJECT_DIR)/EPL\\ Ground\\ Guide",
+				);
 				INFOPLIST_FILE = "EPL Ground Guide/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 5.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "earldr.PL-Grounds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
