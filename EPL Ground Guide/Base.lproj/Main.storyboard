@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -45,6 +44,7 @@ To get in touch please use the contact form on the website.
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="NFu-Di-YLq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="M9d-vO-KsB" firstAttribute="leading" secondItem="NFu-Di-YLq" secondAttribute="leading" constant="16" id="U3b-XT-gP4"/>
@@ -52,7 +52,6 @@ To get in touch please use the contact form on the website.
                             <constraint firstItem="M9d-vO-KsB" firstAttribute="top" secondItem="NFu-Di-YLq" secondAttribute="top" constant="20" id="khe-Dd-0iG"/>
                             <constraint firstItem="NFu-Di-YLq" firstAttribute="trailing" secondItem="M9d-vO-KsB" secondAttribute="trailing" constant="16" id="oav-Vc-Xfk"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="NFu-Di-YLq"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vI-Qx-4Zd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -157,51 +156,40 @@ To get in touch please use the contact form on the website.
                                     </textView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="top" secondItem="DSg-Tr-zBF" secondAttribute="bottom" constant="5" id="3kT-wM-20R"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="top" secondItem="Dzi-Qe-Jno" secondAttribute="top" constant="20" id="75a-i1-vuA"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="Dzi-Qe-Jno" secondAttribute="leading" constant="20" id="8hb-bz-DiP"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="centerX" secondItem="Dzi-Qe-Jno" secondAttribute="centerX" id="CO0-4N-D19"/>
-                                    <constraint firstItem="TZS-3b-QGM" firstAttribute="top" secondItem="JaO-AM-WKe" secondAttribute="bottom" constant="5" id="HaD-XZ-wzs"/>
-                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="top" secondItem="Vh5-cl-lvd" secondAttribute="bottom" constant="5" id="K0S-et-Hwl"/>
-                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="leading" secondItem="TZS-3b-QGM" secondAttribute="leading" id="Lcx-qe-BtA"/>
-                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="top" secondItem="N6X-Df-Zi0" secondAttribute="bottom" constant="5" id="LoM-Ra-Ndb"/>
-                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="leading" secondItem="JaO-AM-WKe" secondAttribute="leading" id="NIU-W0-C7R"/>
-                                    <constraint firstAttribute="trailing" secondItem="N6X-Df-Zi0" secondAttribute="trailing" constant="20" id="NxW-62-K6B"/>
-                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="trailing" secondItem="Vh5-cl-lvd" secondAttribute="trailing" id="UHr-eY-M15"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="trailing" secondItem="DSg-Tr-zBF" secondAttribute="trailing" id="aDh-uE-sKj"/>
-                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="trailing" secondItem="TZS-3b-QGM" secondAttribute="trailing" id="aMV-OG-5aL"/>
-                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="trailing" secondItem="loY-Xc-GAs" secondAttribute="trailing" id="nu4-Fd-MZc"/>
-                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="trailing" secondItem="JaO-AM-WKe" secondAttribute="trailing" id="r6L-nM-kjU"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="DSg-Tr-zBF" secondAttribute="leading" id="sSY-5V-1gc"/>
-                                    <constraint firstAttribute="bottom" secondItem="TZS-3b-QGM" secondAttribute="bottom" constant="40" id="vOY-DL-JLw"/>
-                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="top" secondItem="loY-Xc-GAs" secondAttribute="bottom" constant="5" id="vid-Qq-865"/>
-                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="leading" secondItem="loY-Xc-GAs" secondAttribute="leading" id="wAF-vr-Scz"/>
-                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="leading" secondItem="Vh5-cl-lvd" secondAttribute="leading" id="zMr-45-s49"/>
+                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="leading" secondItem="JaO-AM-WKe" secondAttribute="leading" id="740-vo-Igc"/>
+                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="DSg-Tr-zBF" secondAttribute="leading" id="7xZ-KP-N25"/>
+                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="top" secondItem="DSg-Tr-zBF" secondAttribute="bottom" constant="5" id="Fbi-1u-cPS"/>
+                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="leading" secondItem="loY-Xc-GAs" secondAttribute="leading" id="Klj-RZ-vNl"/>
+                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="Dzi-Qe-Jno" secondAttribute="leading" constant="20" id="KzQ-B9-bW9"/>
+                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="centerX" secondItem="Dzi-Qe-Jno" secondAttribute="centerX" id="N38-OR-e83"/>
+                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="trailing" secondItem="loY-Xc-GAs" secondAttribute="trailing" id="RVg-2d-Qj0"/>
+                                    <constraint firstAttribute="bottom" secondItem="TZS-3b-QGM" secondAttribute="bottom" constant="434" id="SDx-bc-3oQ"/>
+                                    <constraint firstItem="TZS-3b-QGM" firstAttribute="top" secondItem="JaO-AM-WKe" secondAttribute="bottom" constant="5" id="Sap-kN-R86"/>
+                                    <constraint firstAttribute="trailing" secondItem="N6X-Df-Zi0" secondAttribute="trailing" constant="20" id="Xpf-WE-0J4"/>
+                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="leading" secondItem="Vh5-cl-lvd" secondAttribute="leading" id="ZJ0-50-0LN"/>
+                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="leading" secondItem="TZS-3b-QGM" secondAttribute="leading" id="dOr-7p-x65"/>
+                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="trailing" secondItem="DSg-Tr-zBF" secondAttribute="trailing" id="dba-57-W07"/>
+                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="top" secondItem="loY-Xc-GAs" secondAttribute="bottom" constant="5" id="dcu-ff-69c"/>
+                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="trailing" secondItem="JaO-AM-WKe" secondAttribute="trailing" id="jHh-F2-mwK"/>
+                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="trailing" secondItem="Vh5-cl-lvd" secondAttribute="trailing" id="jfg-FX-4be"/>
+                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="trailing" secondItem="TZS-3b-QGM" secondAttribute="trailing" id="pGF-wA-YZg"/>
+                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="top" secondItem="Vh5-cl-lvd" secondAttribute="bottom" constant="5" id="qLT-Va-rZf"/>
+                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="top" secondItem="Dzi-Qe-Jno" secondAttribute="top" constant="20" id="rPX-u2-L4h"/>
+                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="top" secondItem="N6X-Df-Zi0" secondAttribute="bottom" constant="5" id="xXj-mn-1hw"/>
                                 </constraints>
                             </scrollView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X0Y-yW-7EC" customClass="GADBannerView">
-                                <rect key="frame" x="27.666666666666657" y="679" width="320" height="50"/>
-                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="bp8-Oq-9Em"/>
-                                    <constraint firstAttribute="width" constant="320" id="wa1-dl-dlg"/>
-                                </constraints>
-                            </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="29J-Id-tkH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="top" secondItem="29J-Id-tkH" secondAttribute="top" id="Iyz-kb-P0y"/>
-                            <constraint firstItem="X0Y-yW-7EC" firstAttribute="centerX" secondItem="Dzi-Qe-Jno" secondAttribute="centerX" id="Tw4-n6-nlo"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="leading" secondItem="jsM-4h-Sb2" secondAttribute="leadingMargin" constant="-20" id="i8U-Zn-IIR"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="bottom" secondItem="X0Y-yW-7EC" secondAttribute="bottom" id="ocL-n8-clF"/>
-                            <constraint firstItem="X0Y-yW-7EC" firstAttribute="bottom" secondItem="29J-Id-tkH" secondAttribute="bottom" id="ttc-Ee-3pK"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="centerX" secondItem="jsM-4h-Sb2" secondAttribute="centerX" id="wLr-WP-VbH"/>
+                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="bottom" secondItem="29J-Id-tkH" secondAttribute="bottom" id="2SK-J6-gZr"/>
+                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="leading" secondItem="jsM-4h-Sb2" secondAttribute="leadingMargin" constant="-20" id="H1j-7p-rfz"/>
+                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="centerX" secondItem="jsM-4h-Sb2" secondAttribute="centerX" id="PyC-cB-yPG"/>
+                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="top" secondItem="29J-Id-tkH" secondAttribute="top" id="pFO-LR-Ccs"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="29J-Id-tkH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="infoIconSet" id="Sba-g8-tiE"/>
                     <connections>
-                        <outlet property="bannerView" destination="X0Y-yW-7EC" id="FZ7-0Q-FNd"/>
                         <outlet property="byCar" destination="DSg-Tr-zBF" id="cav-ez-rGy"/>
                         <outlet property="byDrink" destination="TZS-3b-QGM" id="wuM-Me-3ds"/>
                         <outlet property="byTrain" destination="loY-Xc-GAs" id="bZC-nv-Kxy"/>
@@ -224,8 +212,8 @@ To get in touch please use the contact form on the website.
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ML8-ll-bgh"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="mapIconSet" id="3j1-y5-brI"/>
                     <connections>
@@ -262,6 +250,7 @@ To get in touch please use the contact form on the website.
                                 <rect key="frame" x="177.66666666666666" y="471" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="nzy-Q7-hLK"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="OdQ-zA-Xw1" firstAttribute="centerX" secondItem="6a5-c2-doS" secondAttribute="centerX" id="6fG-BI-zhW"/>
@@ -273,7 +262,6 @@ To get in touch please use the contact form on the website.
                             <constraint firstItem="6a5-c2-doS" firstAttribute="top" secondItem="nzy-Q7-hLK" secondAttribute="top" id="uxd-b5-wMN"/>
                             <constraint firstItem="OdQ-zA-Xw1" firstAttribute="centerX" secondItem="eGA-45-QR9" secondAttribute="centerX" id="w3U-8c-2Tl"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="nzy-Q7-hLK"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Fixtures" image="fixturesIconSet" id="dRM-vz-F8p"/>
                     <connections>
@@ -308,7 +296,7 @@ To get in touch please use the contact form on the website.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFD-X3-ZJg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFD-X3-ZJg">
                                 <rect key="frame" x="0.0" y="693" width="375" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -319,6 +307,7 @@ To get in touch please use the contact form on the website.
                                 <rect key="frame" x="177.66666666666666" y="334" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="utB-Zz-cAq"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="XFD-X3-ZJg" firstAttribute="top" secondItem="x8L-gv-FBi" secondAttribute="bottom" constant="6" id="56r-bt-vRD"/>
@@ -334,7 +323,6 @@ To get in touch please use the contact form on the website.
                             <constraint firstItem="x8L-gv-FBi" firstAttribute="leading" secondItem="XFD-X3-ZJg" secondAttribute="leading" id="s0V-S8-kAS"/>
                             <constraint firstItem="18p-E8-4Oz" firstAttribute="leading" secondItem="OhO-tr-4Eh" secondAttribute="leadingMargin" id="vKP-iq-402"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="utB-Zz-cAq"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Trains" image="trainsIconSet" id="X1y-Nw-bip"/>
                     <connections>
