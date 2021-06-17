@@ -40,12 +40,12 @@ class TeamViewController: UITabBarController {
             teamDrinkInfo = "Most of the pubs near the ground are for home fans only. The Witton Arms does, however, admit away fans. A bit further way is the Barton Arms on High Street Aston.\n\nAlcohol is not available inside the away end of the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/aston-villa/scores-fixtures"
         } else if teamName == "Brentford" {
-            stationCode = "BFD"
-            stadiumLat = 51.4877305
-            stadiumLon = -0.3025575
-            teamCarInfo = "Sat Nav Postcode: TW8 0NT\n\nLeave the M4 at Junction 2 and join the A4, following the A4 as it goes under the M4 to Chiswick roundabout. Go round Chiswick roundabout taking the A4 back out of London (again under the M4).  At the first roundabout turn left into the B455 (Ealing Road), the ground is the second right."
-            teamTrainInfo = "From Brentford Station, leave the station onto Boston Manor Road and turn left. Walk down Boston Manor Road and take the second left into Windmill Road.  Finally take the first right into Clifden Road, following this down to the ground."
-            teamDrinkInfo = "Brentford has a pub at every corner of the ground, with the New Inn the popular away supporters pub."
+            stationCode = "KWB"
+            stadiumLat = 51.490775
+            stadiumLon = -0.288715
+            teamCarInfo = "Sat Nav Postcode: TW8 9QT\n\nLeave the M4 at Junction 2 and join the A4, following the A4 as it goes under the M4 to Chiswick roundabout. At the Chiswick roundabout take the fourth exit onto Chiswick High Road (A205).  The ground is on the first right you can take, down Lionel Road South."
+            teamTrainInfo = "From Kew Bridge Station, leave the station onto Chiswick High Road and turn left. Take the immediate next left down Lionel Road South, the ground is down this road."
+            teamDrinkInfo = "The old Griffin Park had a pub on every corner of the ground, with the New Inn the popular away supporters pub.  Griffin Park is a fifteen-minute walk away down Chiswick High Road.  Turn right when you reach the McDonalds onto Ealing Road.\n\nAlternatively, there are a number of pubs towards the river along Strand-on-the-Green and Thames Road."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/brentford/scores-fixtures"
         } else if teamName == "Brighton" {
             stationCode = "FMR"

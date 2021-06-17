@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		144B7280267A6C98001ADD00 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		146736E7210CC269007ED0C9 /* TeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
 		146736E9210CC6D5007ED0C9 /* TeamMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMapViewController.swift; sourceTree = "<group>"; };
 		146736EB210CC709007ED0C9 /* TeamFixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamFixturesViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 				52CF3D6F20EBD72B009F4013 /* LaunchScreen.storyboard */,
 				52CF3D7220EBD72B009F4013 /* Info.plist */,
 				14BB191221286791001DC1A7 /* iStock-917610906.jpg */,
+				144B7280267A6C98001ADD00 /* README.md */,
 			);
 			path = "EPL Ground Guide";
 			sourceTree = "<group>";
