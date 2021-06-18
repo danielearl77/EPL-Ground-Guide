@@ -39,16 +39,6 @@
 		14B4DDC82104DB0600338B40 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		14B4DDCA2104DF9A00338B40 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
 		14BB191221286791001DC1A7 /* iStock-917610906.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iStock-917610906.jpg"; sourceTree = "<group>"; };
-		14F55277226C7DB200C8A7A8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		14F5527A226C7E1000C8A7A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		14F5527B226C7E1000C8A7A8 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
-		14F5527C226C7E1000C8A7A8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		14F5527D226C7E1000C8A7A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		14F5527E226C7E1000C8A7A8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		14F5527F226C7E1000C8A7A8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		14F55280226C7E1000C8A7A8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		14F55281226C7E1000C8A7A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		14F55282226C7E1000C8A7A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		52CF3D6320EBD729009F4013 /* EPL Grounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPL Grounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CF3D6620EBD72A009F4013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52CF3D6820EBD72A009F4013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,16 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				148080A624F2C22A0048BB38 /* StoreKit.framework */,
-				14F5527A226C7E1000C8A7A8 /* AudioToolbox.framework */,
-				14F5527D226C7E1000C8A7A8 /* AVFoundation.framework */,
-				14F55281226C7E1000C8A7A8 /* CoreGraphics.framework */,
-				14F5527C226C7E1000C8A7A8 /* CoreMedia.framework */,
-				14F55280226C7E1000C8A7A8 /* CoreTelephony.framework */,
-				14F5527E226C7E1000C8A7A8 /* EventKit.framework */,
-				14F5527B226C7E1000C8A7A8 /* EventKitUI.framework */,
-				14F5527F226C7E1000C8A7A8 /* MessageUI.framework */,
-				14F55282226C7E1000C8A7A8 /* SystemConfiguration.framework */,
-				14F55277226C7DB200C8A7A8 /* AdSupport.framework */,
 				146736F1210CD416007ED0C9 /* CoreLocation.framework */,
 				146736EF210CCE22007ED0C9 /* MapKit.framework */,
 				14B4DDC82104DB0600338B40 /* WebKit.framework */,
