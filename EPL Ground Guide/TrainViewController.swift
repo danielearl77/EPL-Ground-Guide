@@ -48,16 +48,16 @@ class TrainViewController: UIViewController, WKUIDelegate, WKNavigationDelegate 
                           didFailProvisionalNavigation navigation: WKNavigation!,
                           withError error: Error) {
         if(error._code == NSURLErrorNotConnectedToInternet) {
-            print("No Internet Connection")
+            NSLog("No Internet Connection")
         }
-        print("Error Loading:")
+        NSLog("Error Loading:")
         print(error._code)
     }
     
     func webView(_ webView: WKWebView,
                  didFail navigation: WKNavigation!,
                  withError error: Error) {
-        print("Error Loading: Navigation Error")
+        NSLog("Error Loading: Navigation Error")
         print(error._code)
     }
     

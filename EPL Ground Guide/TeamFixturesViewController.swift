@@ -37,13 +37,13 @@ class TeamFixturesViewController: UIViewController, WKUIDelegate, WKNavigationDe
     func webView(_ webView: WKWebView,
                  didFailProvisionalNavigation navigation: WKNavigation!,
                  withError error: Error) {
-        print("Error Loading")
+        NSLog("Error Loading")
     }
     
     func webView(_ webView: WKWebView,
                  didFail navigation: WKNavigation!,
                  withError error: Error) {
-        print("Error Loading: Navigation Error")
+        NSLog("Error Loading: Navigation Error")
     }
     
     override func didReceiveMemoryWarning() {
