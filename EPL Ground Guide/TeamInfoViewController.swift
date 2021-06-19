@@ -44,7 +44,7 @@ class TeamInfoViewController: UIViewController {
         let lastVersionPromptedForReview = UserDefaults.standard.string(forKey: "lastVersionPromptedForReview")
      
         // Has the process been completed several times and the user has not already been prompted for this version?
-        if count >= 10 && currentVersion != lastVersionPromptedForReview {
+        if count >= 15 && currentVersion != lastVersionPromptedForReview {
             SKStoreReviewController.requestReview()
             UserDefaults.standard.set(currentVersion, forKey: "lastVersionPromptedForReview")
         }

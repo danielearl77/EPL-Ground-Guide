@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +19,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
                                 <rect key="frame" x="16" y="108" width="343" height="650"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">EPL Ground Guide.
+                                <string key="text">EPL Ground Guide.
 A fan travel guide to all of the EPL grounds.
 
 This app aims to provide travel information for fans travelling to Premier League football matches.    
@@ -38,7 +39,7 @@ www.phone-app.co.uk
 
 To get in touch please use the contact form on the website.
 
-© 2012 - 2021</mutableString>
+© 2012 - 2021</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -94,7 +95,7 @@ To get in touch please use the contact form on the website.
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="EPL Ground Guide" id="t0d-we-es6">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="RDb-R9-aXj"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="RDb-R9-aXj"/>
                         <barButtonItem key="rightBarButtonItem" image="aboutIcon" id="uHW-dK-tAs">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -163,7 +164,7 @@ To get in touch please use the contact form on the website.
                                     <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="Dzi-Qe-Jno" secondAttribute="leading" constant="20" id="KzQ-B9-bW9"/>
                                     <constraint firstItem="N6X-Df-Zi0" firstAttribute="centerX" secondItem="Dzi-Qe-Jno" secondAttribute="centerX" id="N38-OR-e83"/>
                                     <constraint firstItem="Vh5-cl-lvd" firstAttribute="trailing" secondItem="loY-Xc-GAs" secondAttribute="trailing" id="RVg-2d-Qj0"/>
-                                    <constraint firstAttribute="bottom" secondItem="TZS-3b-QGM" secondAttribute="bottom" constant="434" id="SDx-bc-3oQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="TZS-3b-QGM" secondAttribute="bottom" constant="40" id="SDx-bc-3oQ"/>
                                     <constraint firstItem="TZS-3b-QGM" firstAttribute="top" secondItem="JaO-AM-WKe" secondAttribute="bottom" constant="5" id="Sap-kN-R86"/>
                                     <constraint firstAttribute="trailing" secondItem="N6X-Df-Zi0" secondAttribute="trailing" constant="20" id="Xpf-WE-0J4"/>
                                     <constraint firstItem="DSg-Tr-zBF" firstAttribute="leading" secondItem="Vh5-cl-lvd" secondAttribute="leading" id="ZJ0-50-0LN"/>
