@@ -1,6 +1,0 @@
-framework module Pods_EPL_Grounds {
-  umbrella header "Pods-EPL Grounds-umbrella.h"
-
-  export *
-  module * { export * }
-}
