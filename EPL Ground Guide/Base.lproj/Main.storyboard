@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,7 +19,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
                                 <rect key="frame" x="16" y="108" width="343" height="650"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">EPL Ground Guide.
 A fan travel guide to all of the EPL grounds.
 
@@ -40,13 +41,14 @@ www.phone-app.co.uk
 To get in touch please use the contact form on the website.
 
 © 2012 - 2021</string>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NFu-Di-YLq"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="M9d-vO-KsB" firstAttribute="leading" secondItem="NFu-Di-YLq" secondAttribute="leading" constant="16" id="U3b-XT-gP4"/>
                             <constraint firstItem="NFu-Di-YLq" firstAttribute="bottom" secondItem="M9d-vO-KsB" secondAttribute="bottom" constant="20" id="dLR-ba-KEu"/>
@@ -97,7 +99,7 @@ To get in touch please use the contact form on the website.
                     <navigationItem key="navigationItem" title="EPL Ground Guide" id="t0d-we-es6">
                         <barButtonItem key="backBarButtonItem" title="Back" id="RDb-R9-aXj"/>
                         <barButtonItem key="rightBarButtonItem" image="aboutIcon" id="uHW-dK-tAs">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" systemColor="labelColor"/>
                             <connections>
                                 <segue destination="cXv-BJ-HG9" kind="show" identifier="showHelp" id="k9Q-um-eFe"/>
                             </connections>
@@ -121,7 +123,8 @@ To get in touch please use the contact form on the website.
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSg-Tr-zBF">
                                         <rect key="frame" x="20" y="46" width="343" height="33"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -145,17 +148,20 @@ To get in touch please use the contact form on the website.
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loY-Xc-GAs">
                                         <rect key="frame" x="20" y="110" width="343" height="33"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-3b-QGM">
                                         <rect key="frame" x="20" y="174" width="343" height="33"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="loY-Xc-GAs" firstAttribute="leading" secondItem="JaO-AM-WKe" secondAttribute="leading" id="740-vo-Igc"/>
                                     <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="DSg-Tr-zBF" secondAttribute="leading" id="7xZ-KP-N25"/>
@@ -383,5 +389,11 @@ To get in touch please use the contact form on the website.
         <image name="infoIconSet" width="23" height="23"/>
         <image name="mapIconSet" width="23" height="23"/>
         <image name="trainsIconSet" width="23" height="23"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
