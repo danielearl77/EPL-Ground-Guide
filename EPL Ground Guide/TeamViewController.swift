@@ -20,8 +20,6 @@ class TeamViewController: UITabBarController {
     var teamDrinkInfo = ""
     var teamFixtures = ""
     
-   
-    
     func loadTeamData() {
         if teamName == "Arsenal" {
             stationCode = "FPK"
@@ -39,6 +37,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take a local train from New Street Station to Witton. Turn left out of the station and walk down to the roundabout, then left again into Witton Lane."
             teamDrinkInfo = "Most of the pubs near the ground are for home fans only. The Witton Arms does, however, admit away fans. A bit further way is the Barton Arms on High Street Aston.\n\nAlcohol is not available inside the away end of the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/aston-villa/scores-fixtures"
+        } else if teamName == "Bournemouth" {
+            stationCode = "BMH"
+            stadiumLat = 50.734901
+            stadiumLon = -1.8389888
+            teamCarInfo = "Sat Nav Postcode: BH7 7AF\n\nFrom the A31 take the A338 towards Bournemouth. Turn off the A338 (signposted Kings Park, Football Traffic), and at the roundabout turn left into Littledown Avenue and then the first right into Thistlebarrow Road. The ground is straight ahead."
+            teamTrainInfo = "From Bournemouth Station walk down to Holdenhurst Road. Turn left and walk down Holdenhurst Road (along side the Dual Carriage way) until you reach Littledown Avenue. From Littledown Avenue turn right into Thistlebarrow Road and follow this down to the ground. It should take about 30 minutes."
+            teamDrinkInfo = "The Cherry's Bar at the stadium allows away fans into the ground floor bar. Otherwise on Christchurch Street, in Boscombe, there is a Wetherspoons and the Mello Mello bar which both admit away fans.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/afc-bournemouth/scores-fixtures"
         } else if teamName == "Brentford" {
             stationCode = "KWB"
             stadiumLat = 51.490775
@@ -87,6 +93,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take a local train to Sandhills Station, from here there special football buses to the ground. Alternatively you can walk from Kirkdale station, turn right cross the railway bridge, walk up Westminster Road and turn left into Goodall Street, walk up to end of the road, crossing the junction with Carisbrooke Road and into Harlech Street. At the end of Harlech Street you will reach the main County Road (A59). Cross over County Road and go down Andrew Street. At the top of Andrew Street you can see the ground."
             teamDrinkInfo = "The Thomas Frost on Walton Road is about a 15 minute walk away, or Bradleys Wine Bar a bit further down Walton Road. There are also a few pubs on Walton Lane, or a better bet would be to drink in Liverpool City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/everton/scores-fixtures"
+        } else if teamName == "Fulham" {
+            stationCode = "PUT"
+            stadiumLat = 51.4740754
+            stadiumLon = -0.2215902
+            teamCarInfo = "Sat Nav Postcode: SW6 6HH\n\nTake the M4 towards London, which becomes the A4. Just before the Hammersmith Flyover turn off the A4 onto Hammersmith Broadway, and follow the road around central Hammersmith, once almost all the way round turn onto the A219 (Fulham Palace Road). Keep on the A219 and then turn right into Crabtree Lane, following this down to the ground."
+            teamTrainInfo = "Take the District line to Putney Bridge, for afternoon games walk through Bishops Park along the river to the ground. For evening games the park is closed so you have to walk along Fulham High Street, turning left at Bishops Park Road. At the end of Bishops Park Road follow Stevenage Road round to the ground."
+            teamDrinkInfo = "The Eight Bells by Putney Bridge Tube Station is always popular with away fans, as well as the Zulu Bar, The Kings Arms, and O'Neill's on Fulham High Street."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/fulham/scores-fixtures"
         } else if teamName == "Leeds Utd" {
             stationCode = "LDS"
             stadiumLat = 53.7771779
@@ -135,14 +149,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Come out of Newcastle station and walk up Pink Lane. Cross Westgate Road and walk up Bath Lane (keeping the old city walls to your right). Turn right on to Stowell Street and at the end bear left up St Andrews Street, finally go left up Gallowgate to the ground."
             teamDrinkInfo = "As the ground is right in the City Centre there are plenty of pubs to choose from. Generally, however, away fans tend to drink in the pubs by Newcastle Railway Station.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/newcastle-united/scores-fixtures"
-        } else if teamName == "Norwich City" {
-            stationCode = "NRW"
-            stadiumLat = 52.6223803
-            stadiumLon = 1.308603
-            teamCarInfo = "Sat Nav Postcode: NR1 1JE\n\nFrom the A11 the ground is well signposted. At the A11 / A47 roundabout take the A47, turning of onto the A146 towards the City Centre. At the traffic lights at the end of the A146 turn right, and then left at the roundabout onto Bracondale. At the next lights turn right into King Street and follow this road round over the river to the ground."
-            teamTrainInfo = "From Norwich Station turn left and at the main road either turn left again and follow it round to the ground or cross the road and walk through the Riverside development to the ground."
-            teamDrinkInfo = "The traditional away pub the 'Compleat Angler' no longer accepts away fans, however, the Prince of Wales Pub further up Prince of Wales Road does. There are also a number of pubs and restaurants in the Riverside development between the Railway Station and the ground, however, many of these do not now admit away fans.\n\nAlcohol is also available inside the ground."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/norwich-city/scores-fixtures"
         } else if teamName == "Southampton" {
             stationCode = "SOU"
             stadiumLat = 50.9065298
@@ -159,14 +165,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to either White Hart Lane or Northumberland Park. From White Hart Lane come out of the station on to White Hart Lane, turn right and walk down White Hart Lane to the High Road, then right again following the High Road down to the ground. From Northumberland Park come out of the station on to Park Lane, turn left and follow Park Lane down to the ground."
             teamDrinkInfo = "There aren't too many 'away' pubs around the ground. The best options are the Harringey Irish Club on Pretoria Road (across from White Hart Lane Railway Station) or the Elmhust pub on Lordship lane (south of the ground, off the High Road). Otherwise drinking in Central London before heading to North London is a better bet.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/tottenham-hotspur/scores-fixtures"
-        } else if teamName == "Watford" {
-            stationCode = "WFJ"
-            stadiumLat = 51.6499300
-            stadiumLon = -0.4015600
-            teamCarInfo = "Sat Nav Postcode: WD18 0ER\n\nFrom the M1 Junction 5 take the A4008 towards Watford. At the second roundabout take the A411 into the town past Watford High Street Station. Turn right into Vicarage Road, following signs for Watford General Hospital to the ground."
-            teamTrainInfo = "From Watford Junction Station walk up Clarendon Road to the High Street. Turn left and walk along the High Street as far as Market Street, at the end of Market Street turn left and then right into Vicarage Road for the ground."
-            teamDrinkInfo = "A good option is Odd Fellows on Fearnley Street. The pub can be seen after walking down Market Street from the town centre. Otherwise drinking in Watford town centre is another option."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/watford/scores-fixtures"
         } else if teamName == "West Ham" {
             stationCode = "SRA"
             stadiumLat = 51.53867
