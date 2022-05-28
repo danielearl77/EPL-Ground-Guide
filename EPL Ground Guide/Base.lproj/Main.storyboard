@@ -9,6 +9,79 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Support Us-->
+        <scene sceneID="kkA-dH-fy3">
+            <objects>
+                <viewController id="nNr-MT-gMW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gif-33-V9Y">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HKU-3A-fyp">
+                                <rect key="frame" x="20" y="108" width="388" height="230"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="XZi-v6-dEf"/>
+                                </constraints>
+                                <string key="text">Our Apps used to serve Google Ads but as user privacy becomes more of an issue we have taken the decision to remove ads from all of our apps.
+
+To help keep our apps free please consider donating by tapping Send Tip below.
+
+Please note this is just a digital tip no extra functionality will be unlocked, you are just helping keep our apps free.  If you wish you can give more than once.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTZ-WD-vLx">
+                                <rect key="frame" x="165" y="348" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwS-4M-3c6">
+                                <rect key="frame" x="159.66666666666666" y="379" width="108.99999999999997" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pn-yC-7Vs">
+                                <rect key="frame" x="162" y="410" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FE-lJ-cYJ">
+                                <rect key="frame" x="154" y="461" width="120" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="a2f-2y-7m3"/>
+                                    <constraint firstAttribute="width" constant="120" id="hYT-Op-Sgc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Send Tip"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F6H-pj-STT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8FE-lJ-cYJ" firstAttribute="top" secondItem="1Pn-yC-7Vs" secondAttribute="bottom" constant="30" id="0e4-wJ-0CU"/>
+                            <constraint firstItem="uwS-4M-3c6" firstAttribute="top" secondItem="YTZ-WD-vLx" secondAttribute="bottom" constant="10" id="4VY-vl-5Eq"/>
+                            <constraint firstItem="uwS-4M-3c6" firstAttribute="centerX" secondItem="Gif-33-V9Y" secondAttribute="centerX" id="Dws-g9-geD"/>
+                            <constraint firstItem="8FE-lJ-cYJ" firstAttribute="centerX" secondItem="Gif-33-V9Y" secondAttribute="centerX" id="GzQ-Qj-R7P"/>
+                            <constraint firstItem="YTZ-WD-vLx" firstAttribute="top" secondItem="HKU-3A-fyp" secondAttribute="bottom" constant="10" id="WNL-kD-Y5o"/>
+                            <constraint firstItem="HKU-3A-fyp" firstAttribute="leading" secondItem="F6H-pj-STT" secondAttribute="leading" constant="20" id="chk-oH-R6m"/>
+                            <constraint firstItem="HKU-3A-fyp" firstAttribute="top" secondItem="F6H-pj-STT" secondAttribute="top" constant="20" id="ehf-my-3g3"/>
+                            <constraint firstItem="YTZ-WD-vLx" firstAttribute="centerX" secondItem="Gif-33-V9Y" secondAttribute="centerX" id="fop-qG-gzL"/>
+                            <constraint firstItem="F6H-pj-STT" firstAttribute="trailing" secondItem="HKU-3A-fyp" secondAttribute="trailing" constant="20" id="gQQ-MJ-4Mc"/>
+                            <constraint firstItem="1Pn-yC-7Vs" firstAttribute="top" secondItem="uwS-4M-3c6" secondAttribute="bottom" constant="10" id="i1U-iy-RHe"/>
+                            <constraint firstItem="1Pn-yC-7Vs" firstAttribute="centerX" secondItem="Gif-33-V9Y" secondAttribute="centerX" id="zUp-Re-Uf5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Support Us" id="5Ql-4g-Rtc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cnX-9A-B7p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1847.663551401869" y="-1352.2678185745142"/>
+        </scene>
         <!--Help-->
         <scene sceneID="yPH-XW-7zK">
             <objects>
@@ -17,13 +90,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
-                                <rect key="frame" x="16" y="108" width="396" height="764"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7A-3J-w6s">
+                                <rect key="frame" x="154" y="188" width="120" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="3se-Xx-6yY"/>
+                                    <constraint firstAttribute="height" constant="40" id="p6d-j2-zTQ"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Support Us" cornerStyle="large">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="1" green="0.95294117649999999" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="nNr-MT-gMW" kind="show" id="SQD-Ic-wH0"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qu2-tH-gSz">
+                                <rect key="frame" x="66.666666666666686" y="108" width="295" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BAV-wM-QPJ"/>
+                                    <constraint firstAttribute="width" constant="295" id="tO2-Kp-85M"/>
+                                </constraints>
                                 <string key="text">EPL Ground Guide.
-A fan travel guide to all of the EPL grounds.
-
-This app aims to provide travel information for fans travelling to Premier League football matches.    
+A fan travel guide to all of the EPL grounds.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
+                                <rect key="frame" x="20" y="248" width="388" height="664"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">This app aims to provide travel information for fans travelling to Premier League football matches.    
 All directions given in this app are taken from either maps or personal experience.  The map view works in exactly the same way as the built-in map app on the iPhone, showing current location and allowing you to zoom in and out.  
 
 Please contact us if you think the directions are wrong or can provide clearer routes to the grounds.
@@ -40,7 +142,7 @@ www.phone-app.co.uk
 
 To get in touch please use the contact form on the website.
 
-© 2012 - 2021</string>
+© 2012 - 2021</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -50,16 +152,20 @@ To get in touch please use the contact form on the website.
                         <viewLayoutGuide key="safeArea" id="NFu-Di-YLq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="M9d-vO-KsB" firstAttribute="leading" secondItem="NFu-Di-YLq" secondAttribute="leading" constant="16" id="U3b-XT-gP4"/>
-                            <constraint firstItem="NFu-Di-YLq" firstAttribute="bottom" secondItem="M9d-vO-KsB" secondAttribute="bottom" constant="20" id="dLR-ba-KEu"/>
-                            <constraint firstItem="M9d-vO-KsB" firstAttribute="top" secondItem="NFu-Di-YLq" secondAttribute="top" constant="20" id="khe-Dd-0iG"/>
-                            <constraint firstItem="NFu-Di-YLq" firstAttribute="trailing" secondItem="M9d-vO-KsB" secondAttribute="trailing" constant="16" id="oav-Vc-Xfk"/>
+                            <constraint firstItem="Qu2-tH-gSz" firstAttribute="centerX" secondItem="3jD-qd-whJ" secondAttribute="centerX" id="4UF-dH-TKX"/>
+                            <constraint firstItem="M9d-vO-KsB" firstAttribute="leading" secondItem="NFu-Di-YLq" secondAttribute="leading" constant="20" id="80M-b0-P44"/>
+                            <constraint firstItem="b7A-3J-w6s" firstAttribute="centerX" secondItem="3jD-qd-whJ" secondAttribute="centerX" id="GRr-Yu-S0t"/>
+                            <constraint firstItem="M9d-vO-KsB" firstAttribute="bottom" secondItem="NFu-Di-YLq" secondAttribute="bottom" constant="20" id="OOH-9z-tvv"/>
+                            <constraint firstItem="Qu2-tH-gSz" firstAttribute="top" secondItem="NFu-Di-YLq" secondAttribute="top" constant="20" id="So8-c0-WYN"/>
+                            <constraint firstItem="M9d-vO-KsB" firstAttribute="top" secondItem="b7A-3J-w6s" secondAttribute="bottom" constant="20" id="ckU-2V-Yft"/>
+                            <constraint firstItem="b7A-3J-w6s" firstAttribute="top" secondItem="Qu2-tH-gSz" secondAttribute="bottom" constant="30" id="jeu-ky-Nou"/>
+                            <constraint firstItem="NFu-Di-YLq" firstAttribute="trailing" secondItem="M9d-vO-KsB" secondAttribute="trailing" constant="20" id="w00-jh-dup"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6vI-Qx-4Zd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1816.8" y="-587.85607196401804"/>
+            <point key="canvasLocation" x="1815.2" y="-588.91625615763553"/>
         </scene>
         <!--EPL Ground Guide-->
         <scene sceneID="Y4j-rL-wyx">
@@ -118,8 +224,8 @@ To get in touch please use the contact form on the website.
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dzi-Qe-Jno">
-                                <rect key="frame" x="0.0" y="88" width="428" height="755"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dzi-Qe-Jno">
+                                <rect key="frame" x="0.0" y="118" width="428" height="755"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSg-Tr-zBF">
                                         <rect key="frame" x="20" y="46" width="388" height="33"/>
@@ -185,6 +291,17 @@ To get in touch please use the contact form on the website.
                                     <constraint firstItem="DSg-Tr-zBF" firstAttribute="top" secondItem="N6X-Df-Zi0" secondAttribute="bottom" constant="5" id="xXj-mn-1hw"/>
                                 </constraints>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksF-Vd-kRB">
+                                <rect key="frame" x="20" y="793" width="388" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="c3j-5j-cU9"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="nNr-MT-gMW" kind="show" id="dNJ-Mm-VTJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="29J-Id-tkH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -192,6 +309,9 @@ To get in touch please use the contact form on the website.
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="bottom" secondItem="29J-Id-tkH" secondAttribute="bottom" id="2SK-J6-gZr"/>
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="leading" secondItem="jsM-4h-Sb2" secondAttribute="leadingMargin" constant="-20" id="H1j-7p-rfz"/>
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="centerX" secondItem="jsM-4h-Sb2" secondAttribute="centerX" id="PyC-cB-yPG"/>
+                            <constraint firstItem="29J-Id-tkH" firstAttribute="trailing" secondItem="ksF-Vd-kRB" secondAttribute="trailing" constant="20" id="fQw-T6-UNc"/>
+                            <constraint firstItem="ksF-Vd-kRB" firstAttribute="leading" secondItem="29J-Id-tkH" secondAttribute="leading" constant="20" id="gfB-R4-wVY"/>
+                            <constraint firstItem="29J-Id-tkH" firstAttribute="bottom" secondItem="ksF-Vd-kRB" secondAttribute="bottom" constant="10" id="lif-Ac-n0p"/>
                             <constraint firstItem="Dzi-Qe-Jno" firstAttribute="top" secondItem="29J-Id-tkH" secondAttribute="top" id="pFO-LR-Ccs"/>
                         </constraints>
                     </view>
@@ -204,7 +324,7 @@ To get in touch please use the contact form on the website.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NM5-vw-7Hl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3712.8000000000002" y="-639.16256157635473"/>
+            <point key="canvasLocation" x="3712.1495327102803" y="-639.52483801295898"/>
         </scene>
         <!--Map-->
         <scene sceneID="Avr-uc-MxA">
@@ -383,6 +503,9 @@ To get in touch please use the contact form on the website.
             <point key="canvasLocation" x="2773.5999999999999" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dNJ-Mm-VTJ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="aboutIcon" width="30" height="30"/>
         <image name="fixturesIconSet" width="23" height="23"/>
