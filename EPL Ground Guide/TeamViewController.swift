@@ -61,14 +61,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to Falmer Station, the ground is right next to the station."
             teamDrinkInfo = "There aren't really any pubs near the ground so drinking in Brighton City Centre, by the station before catching the train to Falmer, is the best bet.\n\nAlcohol should be available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/brighton-and-hove-albion/scores-fixtures"
-        } else if teamName == "Burnley" {
-            stationCode = "BYM"
-            stadiumLat = 53.7884704
-            stadiumLon = -2.2303248
-            teamCarInfo = "Sat Nav Postcode: BB10 4BX\n\nFrom the M65 Junction 10 take the A679 towards Burnley. Turn right onto the B6240 (Trafalgar Street) and at the end of this road take the A682 (Centenary Way). At the next roundabout turn right into Yorkshire Street, which goes past the ground."
-            teamTrainInfo = "From Manchester Road Station turn right and walk down to the A682, cross over this road before the roundabout and then walk along Centenary Way to the next roundabout. From here turn right into Yorkshire Street and walk down to the ground."
-            teamDrinkInfo = "The best option is the Queen Victoria, which is past the Fire Station (walking away from the stadium). Another option is the Cricket Club, the clubhouse is open on match days and you can get food, drink and park there.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/burnley/scores-fixtures"
         } else if teamName == "Chelsea" {
             stationCode = "WBP"
             stadiumLat = 51.4820072
