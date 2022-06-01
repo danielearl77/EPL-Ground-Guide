@@ -14,6 +14,9 @@
 		146736F2210CD416007ED0C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146736F1210CD416007ED0C9 /* CoreLocation.framework */; };
 		148080A724F2C22A0048BB38 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148080A624F2C22A0048BB38 /* StoreKit.framework */; };
 		148080AB24F2C4800048BB38 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148080AA24F2C4800048BB38 /* HelpViewController.swift */; };
+		1489E71C2847532B007AD05F /* SupportUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489E71B2847532B007AD05F /* SupportUsViewController.swift */; };
+		1489E71E28479D8F007AD05F /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489E71D28479D8F007AD05F /* IAPManager.swift */; };
+		1489E72028479DCB007AD05F /* ProductIds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1489E71F28479DCB007AD05F /* ProductIds.plist */; };
 		14B4DDC62104B66A00338B40 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4DDC52104B66A00338B40 /* TeamViewController.swift */; };
 		14B4DDC92104DB0600338B40 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B4DDC82104DB0600338B40 /* WebKit.framework */; };
 		14B4DDCB2104DF9A00338B40 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B4DDCA2104DF9A00338B40 /* TrainViewController.swift */; };
@@ -35,6 +38,9 @@
 		146736F1210CD416007ED0C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		148080A624F2C22A0048BB38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		148080AA24F2C4800048BB38 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1489E71B2847532B007AD05F /* SupportUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportUsViewController.swift; sourceTree = "<group>"; };
+		1489E71D28479D8F007AD05F /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		1489E71F28479DCB007AD05F /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
 		14B4DDC52104B66A00338B40 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		14B4DDC82104DB0600338B40 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		14B4DDCA2104DF9A00338B40 /* TrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 				52CF3D6620EBD72A009F4013 /* AppDelegate.swift */,
 				52CF3D6820EBD72A009F4013 /* ViewController.swift */,
 				52CF3D6A20EBD72A009F4013 /* Main.storyboard */,
+				1489E71D28479D8F007AD05F /* IAPManager.swift */,
+				1489E71F28479DCB007AD05F /* ProductIds.plist */,
+				1489E71B2847532B007AD05F /* SupportUsViewController.swift */,
 				148080AA24F2C4800048BB38 /* HelpViewController.swift */,
 				146736E9210CC6D5007ED0C9 /* TeamMapViewController.swift */,
 				146736EB210CC709007ED0C9 /* TeamFixturesViewController.swift */,
@@ -187,6 +196,7 @@
 				14BB191321286791001DC1A7 /* iStock-917610906.jpg in Resources */,
 				52CF3D7120EBD72B009F4013 /* LaunchScreen.storyboard in Resources */,
 				52CF3D6E20EBD72B009F4013 /* Assets.xcassets in Resources */,
+				1489E72028479DCB007AD05F /* ProductIds.plist in Resources */,
 				52CF3D6C20EBD72A009F4013 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +210,8 @@
 			files = (
 				52CF3D6920EBD72A009F4013 /* ViewController.swift in Sources */,
 				146736E8210CC269007ED0C9 /* TeamInfoViewController.swift in Sources */,
+				1489E71E28479D8F007AD05F /* IAPManager.swift in Sources */,
+				1489E71C2847532B007AD05F /* SupportUsViewController.swift in Sources */,
 				14B4DDC62104B66A00338B40 /* TeamViewController.swift in Sources */,
 				14B4DDCB2104DF9A00338B40 /* TrainViewController.swift in Sources */,
 				148080AB24F2C4800048BB38 /* HelpViewController.swift in Sources */,

@@ -141,6 +141,14 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Come out of Newcastle station and walk up Pink Lane. Cross Westgate Road and walk up Bath Lane (keeping the old city walls to your right). Turn right on to Stowell Street and at the end bear left up St Andrews Street, finally go left up Gallowgate to the ground."
             teamDrinkInfo = "As the ground is right in the City Centre there are plenty of pubs to choose from. Generally, however, away fans tend to drink in the pubs by Newcastle Railway Station.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/newcastle-united/scores-fixtures"
+        } else if teamName == "Nottingham Forest" {
+            stationCode = "NOT"
+            stadiumLat = 52.9394531
+            stadiumLon = -1.1331991
+            teamCarInfo = "Sat Nav Postcode: NG2 5FJ\n\nFrom the M1 Junction 24 take the A453 towards Nottingham. Just before the A52 junction turn off the A453 onto the B679 (Clifton Lane). Follow the B679 to the end and turn left onto the A60 (Loughborough Road). The ground is on the right just past the Cricket Ground."
+            teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south, over the river to the ground."
+            teamDrinkInfo = "The pubs near the ground are generally home fans only, with the Meadow Club (the Notts County Supporters Club) or the Nottingham Rowing Club the only places that admit away fans. Otherwise drink in the City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/nottingham-forest/scores-fixtures"
         } else if teamName == "Southampton" {
             stationCode = "SOU"
             stadiumLat = 50.9065298
