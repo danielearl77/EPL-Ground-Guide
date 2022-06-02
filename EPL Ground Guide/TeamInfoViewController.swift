@@ -33,11 +33,16 @@ class TeamInfoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        showSupportUsButton()
+    }
+    
     func showSupportUsButton() {
         let hasSupported = UserDefaults.standard.bool(forKey: "userHasSupported")
-        print(hasSupported)
         if(!hasSupported) {
             supportUsBtn.isHidden = false
+        } else {
+            supportUsBtn.isHidden = true
         }
     }
     
