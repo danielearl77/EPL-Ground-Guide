@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="HKU-3A-fyp">
-                                <rect key="frame" x="20" y="108" width="388" height="230"/>
+                                <rect key="frame" x="20" y="111" width="388" height="230"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230" id="XZi-v6-dEf"/>
@@ -32,25 +34,25 @@ Please note this is just a digital tip no extra functionality will be unlocked, 
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTZ-WD-vLx">
-                                <rect key="frame" x="165" y="348" width="98" height="21"/>
+                                <rect key="frame" x="165" y="351" width="98" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwS-4M-3c6">
-                                <rect key="frame" x="159.66666666666666" y="379" width="108.99999999999997" height="21"/>
+                                <rect key="frame" x="159.66666666666666" y="382" width="108.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pn-yC-7Vs">
-                                <rect key="frame" x="162" y="410" width="104" height="21"/>
+                                <rect key="frame" x="162" y="413" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FE-lJ-cYJ">
-                                <rect key="frame" x="154" y="461" width="120" height="40"/>
+                                <rect key="frame" x="154" y="464" width="120" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="a2f-2y-7m3"/>
                                     <constraint firstAttribute="width" constant="120" id="hYT-Op-Sgc"/>
@@ -62,10 +64,10 @@ Please note this is just a digital tip no extra functionality will be unlocked, 
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v1M-6R-IIM">
-                                <rect key="frame" x="0.0" y="88" width="428" height="804"/>
+                                <rect key="frame" x="0.0" y="91" width="428" height="801"/>
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="aVp-MJ-5SL">
-                                        <rect key="frame" x="195.66666666666666" y="383.66666666666669" width="37" height="37"/>
+                                        <rect key="frame" x="195.66666666666666" y="382" width="37" height="37"/>
                                         <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </activityIndicatorView>
                                 </subviews>
@@ -118,7 +120,7 @@ Please note this is just a digital tip no extra functionality will be unlocked, 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7A-3J-w6s">
-                                <rect key="frame" x="154" y="188" width="120" height="40"/>
+                                <rect key="frame" x="154" y="191" width="120" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="3se-Xx-6yY"/>
@@ -137,7 +139,7 @@ Please note this is just a digital tip no extra functionality will be unlocked, 
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qu2-tH-gSz">
-                                <rect key="frame" x="66.666666666666686" y="108" width="295" height="50"/>
+                                <rect key="frame" x="66.666666666666686" y="111" width="295" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="BAV-wM-QPJ"/>
@@ -149,8 +151,8 @@ A fan travel guide to all of the EPL grounds.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
-                                <rect key="frame" x="20" y="248" width="388" height="624"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
+                                <rect key="frame" x="20" y="251" width="388" height="621"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">This app aims to provide travel information for fans travelling to Premier League football matches.    
 All directions given in this app are taken from either maps or personal experience.  The map view works in exactly the same way as the built-in map app on the iPhone, showing current location and allowing you to zoom in and out.  
@@ -204,7 +206,7 @@ To get in touch please use the contact form on the website.
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamCell" textLabel="gj0-GK-WXh" rowHeight="40" style="IBUITableViewCellStyleDefault" id="bzZ-9E-UwN">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="40"/>
+                                <rect key="frame" x="0.0" y="50" width="428" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bzZ-9E-UwN" id="JRb-kg-O3z">
                                     <rect key="frame" x="0.0" y="0.0" width="428" height="40"/>
@@ -230,7 +232,7 @@ To get in touch please use the contact form on the website.
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="EPL Ground Guide" id="t0d-we-es6">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="RDb-R9-aXj"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="bSq-Ea-8t1"/>
                         <barButtonItem key="rightBarButtonItem" image="aboutIcon" id="uHW-dK-tAs">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
@@ -362,8 +364,19 @@ To get in touch please use the contact form on the website.
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="hybrid" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbW-tV-fXb">
-                                <rect key="frame" x="0.0" y="88" width="428" height="755"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbW-tV-fXb">
+                                <rect key="frame" x="0.0" y="91" width="428" height="752"/>
+                                <hybridMapConfiguration key="preferredConfiguration">
+                                    <pointOfInterestFilter key="pointOfInterestFilter">
+                                        <includedCategories>
+                                            <string>stadium</string>
+                                            <string>parking</string>
+                                            <string>publicTransport</string>
+                                            <string>cafe</string>
+                                            <string>nightlife</string>
+                                        </includedCategories>
+                                    </pointOfInterestFilter>
+                                </hybridMapConfiguration>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ML8-ll-bgh"/>
@@ -393,7 +406,7 @@ To get in touch please use the contact form on the website.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a5-c2-doS">
-                                <rect key="frame" x="0.0" y="88" width="428" height="755"/>
+                                <rect key="frame" x="0.0" y="91" width="428" height="752"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -443,7 +456,7 @@ To get in touch please use the contact form on the website.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8L-gv-FBi">
-                                <rect key="frame" x="0.0" y="88" width="428" height="713"/>
+                                <rect key="frame" x="0.0" y="91" width="428" height="710"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -451,7 +464,7 @@ To get in touch please use the contact form on the website.
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Train Times" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18p-E8-4Oz">
-                                <rect key="frame" x="20" y="305" width="388" height="21"/>
+                                <rect key="frame" x="20" y="308" width="388" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -464,7 +477,7 @@ To get in touch please use the contact form on the website.
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="x1C-5E-gc8">
-                                <rect key="frame" x="204" y="334" width="20" height="20"/>
+                                <rect key="frame" x="204" y="337" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="utB-Zz-cAq"/>
@@ -502,7 +515,7 @@ To get in touch please use the contact form on the website.
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="L6s-OR-lhx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n6o-OZ-Xh7">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -537,7 +550,7 @@ To get in touch please use the contact form on the website.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dNJ-Mm-VTJ"/>
+        <segue reference="SQD-Ic-wH0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="SupportBannerSet" width="335" height="40"/>
@@ -547,7 +560,7 @@ To get in touch please use the contact form on the website.
         <image name="mapIconSet" width="23" height="23"/>
         <image name="trainsIconSet" width="23" height="23"/>
         <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
