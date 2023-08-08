@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6s-OR-lhx">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -253,73 +253,6 @@ To get in touch please use the contact form on the website.
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dzi-Qe-Jno">
-                                <rect key="frame" x="0.0" y="118" width="428" height="755"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSg-Tr-zBF">
-                                        <rect key="frame" x="20" y="46" width="388" height="33"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Car" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6X-Df-Zi0">
-                                        <rect key="frame" x="20" y="20" width="388" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public Transport" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vh5-cl-lvd">
-                                        <rect key="frame" x="20" y="84" width="388" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food and Drink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaO-AM-WKe">
-                                        <rect key="frame" x="20" y="148" width="388" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loY-Xc-GAs">
-                                        <rect key="frame" x="20" y="110" width="388" height="33"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-3b-QGM">
-                                        <rect key="frame" x="20" y="174" width="388" height="33"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="leading" secondItem="JaO-AM-WKe" secondAttribute="leading" id="740-vo-Igc"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="DSg-Tr-zBF" secondAttribute="leading" id="7xZ-KP-N25"/>
-                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="top" secondItem="DSg-Tr-zBF" secondAttribute="bottom" constant="5" id="Fbi-1u-cPS"/>
-                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="leading" secondItem="loY-Xc-GAs" secondAttribute="leading" id="Klj-RZ-vNl"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="leading" secondItem="Dzi-Qe-Jno" secondAttribute="leading" constant="20" id="KzQ-B9-bW9"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="centerX" secondItem="Dzi-Qe-Jno" secondAttribute="centerX" id="N38-OR-e83"/>
-                                    <constraint firstItem="Vh5-cl-lvd" firstAttribute="trailing" secondItem="loY-Xc-GAs" secondAttribute="trailing" id="RVg-2d-Qj0"/>
-                                    <constraint firstAttribute="bottom" secondItem="TZS-3b-QGM" secondAttribute="bottom" constant="40" id="SDx-bc-3oQ"/>
-                                    <constraint firstItem="TZS-3b-QGM" firstAttribute="top" secondItem="JaO-AM-WKe" secondAttribute="bottom" constant="5" id="Sap-kN-R86"/>
-                                    <constraint firstAttribute="trailing" secondItem="N6X-Df-Zi0" secondAttribute="trailing" constant="20" id="Xpf-WE-0J4"/>
-                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="leading" secondItem="Vh5-cl-lvd" secondAttribute="leading" id="ZJ0-50-0LN"/>
-                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="leading" secondItem="TZS-3b-QGM" secondAttribute="leading" id="dOr-7p-x65"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="trailing" secondItem="DSg-Tr-zBF" secondAttribute="trailing" id="dba-57-W07"/>
-                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="top" secondItem="loY-Xc-GAs" secondAttribute="bottom" constant="5" id="dcu-ff-69c"/>
-                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="trailing" secondItem="JaO-AM-WKe" secondAttribute="trailing" id="jHh-F2-mwK"/>
-                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="trailing" secondItem="Vh5-cl-lvd" secondAttribute="trailing" id="jfg-FX-4be"/>
-                                    <constraint firstItem="JaO-AM-WKe" firstAttribute="trailing" secondItem="TZS-3b-QGM" secondAttribute="trailing" id="pGF-wA-YZg"/>
-                                    <constraint firstItem="loY-Xc-GAs" firstAttribute="top" secondItem="Vh5-cl-lvd" secondAttribute="bottom" constant="5" id="qLT-Va-rZf"/>
-                                    <constraint firstItem="N6X-Df-Zi0" firstAttribute="top" secondItem="Dzi-Qe-Jno" secondAttribute="top" constant="20" id="rPX-u2-L4h"/>
-                                    <constraint firstItem="DSg-Tr-zBF" firstAttribute="top" secondItem="N6X-Df-Zi0" secondAttribute="bottom" constant="5" id="xXj-mn-1hw"/>
-                                </constraints>
-                            </scrollView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksF-Vd-kRB">
                                 <rect key="frame" x="20" y="793" width="388" height="40"/>
                                 <constraints>
@@ -331,25 +264,30 @@ To get in touch please use the contact form on the website.
                                     <segue destination="nNr-MT-gMW" kind="show" id="dNJ-Mm-VTJ"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ntc-CO-6pv">
+                                <rect key="frame" x="20" y="91" width="388" height="682"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="29J-Id-tkH"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="bottom" secondItem="29J-Id-tkH" secondAttribute="bottom" id="2SK-J6-gZr"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="leading" secondItem="jsM-4h-Sb2" secondAttribute="leadingMargin" constant="-20" id="H1j-7p-rfz"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="centerX" secondItem="jsM-4h-Sb2" secondAttribute="centerX" id="PyC-cB-yPG"/>
+                            <constraint firstItem="ksF-Vd-kRB" firstAttribute="top" secondItem="ntc-CO-6pv" secondAttribute="bottom" constant="20" id="4yJ-tf-toq"/>
+                            <constraint firstItem="ntc-CO-6pv" firstAttribute="top" secondItem="29J-Id-tkH" secondAttribute="top" id="Xq1-Cy-RgX"/>
                             <constraint firstItem="29J-Id-tkH" firstAttribute="trailing" secondItem="ksF-Vd-kRB" secondAttribute="trailing" constant="20" id="fQw-T6-UNc"/>
                             <constraint firstItem="ksF-Vd-kRB" firstAttribute="leading" secondItem="29J-Id-tkH" secondAttribute="leading" constant="20" id="gfB-R4-wVY"/>
                             <constraint firstItem="29J-Id-tkH" firstAttribute="bottom" secondItem="ksF-Vd-kRB" secondAttribute="bottom" constant="10" id="lif-Ac-n0p"/>
-                            <constraint firstItem="Dzi-Qe-Jno" firstAttribute="top" secondItem="29J-Id-tkH" secondAttribute="top" id="pFO-LR-Ccs"/>
+                            <constraint firstItem="29J-Id-tkH" firstAttribute="trailing" secondItem="ntc-CO-6pv" secondAttribute="trailing" constant="20" id="pCn-Rf-sQj"/>
+                            <constraint firstItem="ntc-CO-6pv" firstAttribute="leading" secondItem="29J-Id-tkH" secondAttribute="leading" constant="20" id="rcY-DJ-50O"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="infoIconSet" id="Sba-g8-tiE"/>
                     <connections>
-                        <outlet property="byCar" destination="DSg-Tr-zBF" id="cav-ez-rGy"/>
-                        <outlet property="byDrink" destination="TZS-3b-QGM" id="wuM-Me-3ds"/>
-                        <outlet property="byTrain" destination="loY-Xc-GAs" id="bZC-nv-Kxy"/>
                         <outlet property="supportUsBtn" destination="ksF-Vd-kRB" id="lHj-yL-42E"/>
+                        <outlet property="teamInfoText" destination="ntc-CO-6pv" id="FFR-gK-oWJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NM5-vw-7Hl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -550,7 +488,7 @@ To get in touch please use the contact form on the website.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SQD-Ic-wH0"/>
+        <segue reference="dNJ-Mm-VTJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="SupportBannerSet" width="335" height="40"/>
