@@ -154,7 +154,7 @@ A fan travel guide to all of the EPL grounds.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="M9d-vO-KsB">
                                 <rect key="frame" x="20" y="251" width="388" height="621"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">This app aims to provide travel information for fans travelling to Premier League football matches.    
+                                <string key="text">This app aims to provide travel information for fans travelling to Premier League football matches.    
 All directions given in this app are taken from either maps or personal experience.  The map view works in exactly the same way as the built-in map app on the iPhone, showing current location and allowing you to zoom in and out.  
 
 Please contact us if you think the directions are wrong or can provide clearer routes to the grounds.
@@ -171,7 +171,7 @@ www.phone-app.co.uk
 
 To get in touch please use the contact form on the website.
 
-© 2012 - 2023</mutableString>
+© 2012 - 2023</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -496,7 +496,7 @@ To get in touch please use the contact form on the website.
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SQD-Ic-wH0"/>
+        <segue reference="dNJ-Mm-VTJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="SupportBannerSet" width="335" height="40"/>
