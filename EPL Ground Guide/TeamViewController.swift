@@ -58,7 +58,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Kew Bridge Station, leave the station onto Chiswick High Road and turn left. Take the immediate next left down Lionel Road South, the ground is down this road."
             teamDrinkInfo = "The old Griffin Park had a pub on every corner of the ground, with the New Inn the popular away supporters pub.  Griffin Park is a fifteen-minute walk away down Chiswick High Road.  Turn right when you reach the McDonalds onto Ealing Road.\n\nAlternatively, there are a number of pubs towards the river along Strand-on-the-Green and Thames Road."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/brentford/scores-fixtures"
-        } else if teamName == "Brighton" {
+        } else if teamName == "Brighton & Hove Albion" {
             stationCode = "FMR"
             stadiumLat = 50.86185
             stadiumLon = -0.08248
@@ -112,6 +112,24 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the District line to Putney Bridge, for afternoon games walk through Bishops Park along the river to the ground. For evening games the park is closed so you have to walk along Fulham High Street, turning left at Bishops Park Road. At the end of Bishops Park Road follow Stevenage Road round to the ground."
             teamDrinkInfo = "The Eight Bells by Putney Bridge Tube Station is always popular with away fans, as well as the Zulu Bar, The Kings Arms, and O'Neill's on Fulham High Street."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/fulham/scores-fixtures"
+        } else if teamName == "Ipswich Town" {
+            stationCode = "IPS"
+            stadiumLat = 52.0542255
+            stadiumLon = 1.1447102
+            teamStadiumName = "Portman Road"
+            teamCarInfo = "Sat Nav Postcode: IP1 2DA\n\nFrom the A12 / A14 Junction take the A1214 (London Road) towards Ipswich, follow this road into Ipswich and after crossing the river turn right into West End Road.  Follow West End Road to Princes Street and turn left, following Princes Street into Portman Road for the ground."
+            teamTrainInfo = "From Ipswich Station you can see the ground, cross over the river and follow the road to the ground."
+            teamDrinkInfo = "The Station Hotel, by the railway station, is the main away pub, with the Punch and Judy on Cardinal Park another option.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/ipswich-town/scores-fixtures"
+        } else if teamName == "Leicester City" {
+            stationCode = "LEI"
+            stadiumLat = 52.6200439
+            stadiumLon = -1.1414997
+            teamStadiumName = "King Power Stadium"
+            teamCarInfo = "Sat Nav Postcode: LE2 7FL\n\nFrom the M1 Junction 21 take the A5460 (Narborough Road) towards Leicester. After going under the railway bridge turn right into Upperton Road, cross the river and turn right into Eastern Boulevard following this to the ground."
+            teamTrainInfo = "From Leicester Station cross over London Road and head down Waterloo Way. At the end of Waterloo Way turn left into Welford Road, then right into Almond Road. At the end of Almond Road turn left into Aylestone Road and then take the next right into Raws Dykes Road to the ground."
+            teamDrinkInfo = "The best bet is to drink in the City Centre before heading to the ground as the pubs near the stadium are not recommended for away fans.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/leicester-city/scores-fixtures"
         } else if teamName == "Liverpool" {
             stationCode = "SDL"
             stadiumLat = 53.4316023
@@ -130,7 +148,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Exit Luton Railway station and turn right along Station Road, continuing into Mill Street. At the end of Mill Street turn left into New Bedford Road, then turn right into Collingdon Street. At the end of Collingdon Street take the footbridge over the roundabout, and where it splits in two bear right down into Dunstable Road. Continue straight along Dunstable Road and the ground is on the left, down either Kenilworth Road, or for the away end Oak Road."
             teamDrinkInfo = "There isn't really anything suitable for away fans near the ground. The better option is to drink in the town centre before heading to the ground.\n\nAlcohol is not available in the away end."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/luton-town/scores-fixtures"
-        } else if teamName == "Man City" {
+        } else if teamName == "Manchester City" {
             stationCode = "ABY"
             stadiumLat = 53.4838763
             stadiumLon = -2.1992886
@@ -139,7 +157,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train from Manchester Piccadilly to Ashburys Station, on leaving the station turn left and walk up the A6010 for about 15 minutes to the ground."
             teamDrinkInfo = "There are very few pubs near the ground, and most are for home fans only. The Stanley, on Pottery Lane towards Ashburys Railway Station, does admit away fans. A better bet would be to drink in Manchester City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/manchester-city/scores-fixtures"
-        } else if teamName == "Man Utd" {
+        } else if teamName == "Manchester United" {
             stationCode = "MUF"
             stadiumLat = 53.4632114
             stadiumLon = -2.2911967
@@ -148,7 +166,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Either take the train from Manchester Piccadilly to Manchester United Station, or the Metrolink to Lancashire County Cricket Ground. The Manchester United Station is right by the away turnstiles. If using the Metrolink come out of the station and walk up Warwick Road to the ground."
             teamDrinkInfo = "The pubs nearest the ground do not admit away fans. A better bet would be to drink in Manchester City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/manchester-united/scores-fixtures"
-        } else if teamName == "Newcastle" {
+        } else if teamName == "Newcastle United" {
             stationCode = "NCL"
             stadiumLat = 54.9752008
             stadiumLon = -1.622355
@@ -166,7 +184,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south, over the river to the ground."
             teamDrinkInfo = "The pubs near the ground are generally home fans only, with the Meadow Club (the Notts County Supporters Club) or the Nottingham Rowing Club the only places that admit away fans. Otherwise drink in the City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/nottingham-forest/scores-fixtures"
-        } else if teamName == "Sheffield Utd" {
+        } else if teamName == "Sheffield United" {
             stationCode = "SHF"
             stadiumLat = 53.3698603
             stadiumLon = -1.4705122
@@ -175,7 +193,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Sheffield Station turn left down Sheaf Square and at the junction bear right down Shoreham Street. Follow Shoreham Street down to the ground."
             teamDrinkInfo = "A lot of the pubs near the ground are for home fans only, however, The Earl on Queens Road admits away fans. Otherwise there is the Globe near the railway station or the Sheffield Tup at the railway station.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sheffield-united/scores-fixtures"
-        } else if teamName == "Tottenham" {
+        } else if teamName == "Tottenham Hotspur" {
             stationCode = "WHL"
             stadiumLat = 51.6031464
             stadiumLon = -0.0676001
@@ -184,7 +202,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to either White Hart Lane or Northumberland Park. From White Hart Lane come out of the station on to White Hart Lane, turn right and walk down White Hart Lane to the High Road, then right again following the High Road down to the ground. From Northumberland Park come out of the station on to Park Lane, turn left and follow Park Lane down to the ground."
             teamDrinkInfo = "There aren't too many 'away' pubs around the ground. The best options are the Harringey Irish Club on Pretoria Road (across from White Hart Lane Railway Station) or the Elmhust pub on Lordship lane (south of the ground, off the High Road). Otherwise drinking in Central London before heading to North London is a better bet.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/tottenham-hotspur/scores-fixtures"
-        } else if teamName == "West Ham" {
+        } else if teamName == "West Ham United" {
             stationCode = "SRA"
             stadiumLat = 51.53867
             stadiumLon = -0.01649
@@ -193,7 +211,7 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train, tube, or DLR to Stratford Station or take the Southeastern High-speed to Stratford International. From both Stations the ground is well sign posted and marshalled.\n\nAfter the game queuing systems are in use back to the stations and you can't walk through the shopping Centre."
             teamDrinkInfo = "There aren't really any pubs near the ground, but there are several pubs in Stratford although most are home fans only. Away fans are best drinking in Central London before making their way out to Stratford or trying some of the venues around the Westfield Shopping Centre.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/west-ham-united/scores-fixtures"
-        } else if teamName == "Wolves" {
+        } else if teamName == "Wolverhampton Wanderers" {
             stationCode = "WVH"
             stadiumLat = 52.5908129
             stadiumLon = -2.130635

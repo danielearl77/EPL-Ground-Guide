@@ -13,8 +13,12 @@ class TableViewController: UITableViewController {
     
     
     // MARK: Team List
-    var Teams: [String] = ["Arsenal","Aston Villa","Bournemouth","Brentford","Brighton","Burnley","Chelsea","Crystal Palace","Everton","Fulham","Liverpool","Luton Town","Man City","Man Utd","Newcastle","Nottingham Forest","Sheffield Utd","Tottenham","West Ham","Wolves"]
+    var Teams: [String] = ["Arsenal","Aston Villa","Bournemouth","Brentford","Brighton & Hove Albion","Burnley","Chelsea","Crystal Palace","Everton","Fulham","Ipswich Town","Leicester City","Liverpool","Luton Town","Manchester City","Manchester United","Newcastle United","Nottingham Forest","Tottenham Hotspur","West Ham United","Wolverhampton Wanderers"]
     
+    /**
+     R - "Sheffield Utd"
+     */
+        
     override func viewDidLoad() {
         super.viewDidLoad()
     }
