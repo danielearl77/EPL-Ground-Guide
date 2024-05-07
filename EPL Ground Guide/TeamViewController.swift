@@ -221,7 +221,7 @@ class TeamViewController: UITabBarController {
             teamDrinkInfo = "There are almost no away fan friendly pubs in Wolverhampton, with the only option currently the bar inside the Premier Inn Hotel by the Railway Station.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/wolverhampton-wanderers/scores-fixtures"
         } else {
-            stationCode = "VIC"
+            stationCode = "XXX"
             stadiumLat = 0.0
             stadiumLon = 0.0
             teamStadiumName = "ERROR"
