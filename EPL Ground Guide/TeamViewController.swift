@@ -53,7 +53,7 @@ class TeamViewController: UITabBarController {
             stationCode = "KWB"
             stadiumLat = 51.490775
             stadiumLon = -0.288715
-            teamStadiumName = "Community Stadium"
+            teamStadiumName = "Gtech Community Stadium"
             teamCarInfo = "Sat Nav Postcode: TW8 9QT\n\nLeave the M4 at Junction 2 and join the A4, following the A4 as it goes under the M4 to Chiswick roundabout. At the Chiswick roundabout take the fourth exit onto Chiswick High Road (A205).  The ground is on the first right you can take, down Lionel Road South."
             teamTrainInfo = "From Kew Bridge Station, leave the station onto Chiswick High Road and turn left. Take the immediate next left down Lionel Road South, the ground is down this road."
             teamDrinkInfo = "The old Griffin Park had a pub on every corner of the ground, with the New Inn the popular away supporters pub.  Griffin Park is a fifteen-minute walk away down Chiswick High Road.  Turn right when you reach the McDonalds onto Ealing Road.\n\nAlternatively, there are a number of pubs towards the river along Strand-on-the-Green and Thames Road."
