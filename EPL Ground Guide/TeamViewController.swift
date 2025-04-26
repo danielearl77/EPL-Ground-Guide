@@ -67,6 +67,15 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the train to Falmer Station, the ground is right next to the station."
             teamDrinkInfo = "There aren't really any pubs near the ground so drinking in Brighton City Centre, by the station before catching the train to Falmer, is the best bet.\n\nAlcohol should be available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/brighton-and-hove-albion/scores-fixtures"
+        } else if teamName == "Burnley" {
+            stationCode = "BYM"
+            stadiumLat = 53.7884704
+            stadiumLon = -2.2303248
+            teamStadiumName = "Turf Moor"
+            teamCarInfo = "Sat Nav Postcode: BB10 4BX\n\nFrom the M65 Junction 10 take the A679 towards Burnley. Turn right onto the B6240 (Trafalgar Street) and at the end of this road take the A682 (Centenary Way). At the next roundabout turn right into Yorkshire Street, which goes past the ground."
+            teamTrainInfo = "From Manchester Road Station turn right and walk down to the A682, cross over this road before the roundabout and then walk along Centenary Way to the next roundabout. From here turn right into Yorkshire Street and walk down to the ground."
+            teamDrinkInfo = "The best option is the Queen Victoria, which is past the Fire Station (walking away from the stadium). Another option is the Cricket Club, the clubhouse is open on match days and you can get food, drink and park there.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/burnley/scores-fixtures"
         } else if teamName == "Chelsea" {
             stationCode = "WBP"
             stadiumLat = 51.4820072
@@ -103,24 +112,15 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "Take the District line to Putney Bridge, for afternoon games walk through Bishops Park along the river to the ground. For evening games the park is closed so you have to walk along Fulham High Street, turning left at Bishops Park Road. At the end of Bishops Park Road follow Stevenage Road round to the ground."
             teamDrinkInfo = "The Eight Bells by Putney Bridge Tube Station is always popular with away fans, as well as the Zulu Bar, The Kings Arms, and O'Neill's on Fulham High Street."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/fulham/scores-fixtures"
-        } else if teamName == "Ipswich Town" {
-            stationCode = "IPS"
-            stadiumLat = 52.0542255
-            stadiumLon = 1.1447102
-            teamStadiumName = "Portman Road"
-            teamCarInfo = "Sat Nav Postcode: IP1 2DA\n\nFrom the A12 / A14 Junction take the A1214 (London Road) towards Ipswich, follow this road into Ipswich and after crossing the river turn right into West End Road.  Follow West End Road to Princes Street and turn left, following Princes Street into Portman Road for the ground."
-            teamTrainInfo = "From Ipswich Station you can see the ground, cross over the river and follow the road to the ground."
-            teamDrinkInfo = "The Station Hotel, by the railway station, is the main away pub, with the Punch and Judy on Cardinal Park another option.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/ipswich-town/scores-fixtures"
-        } else if teamName == "Leicester City" {
-            stationCode = "LEI"
-            stadiumLat = 52.6200439
-            stadiumLon = -1.1414997
-            teamStadiumName = "King Power Stadium"
-            teamCarInfo = "Sat Nav Postcode: LE2 7FL\n\nFrom the M1 Junction 21 take the A5460 (Narborough Road) towards Leicester. After going under the railway bridge turn right into Upperton Road, cross the river and turn right into Eastern Boulevard following this to the ground."
-            teamTrainInfo = "From Leicester Station cross over London Road and head down Waterloo Way. At the end of Waterloo Way turn left into Welford Road, then right into Almond Road. At the end of Almond Road turn left into Aylestone Road and then take the next right into Raws Dykes Road to the ground."
-            teamDrinkInfo = "The best bet is to drink in the City Centre before heading to the ground as the pubs near the stadium are not recommended for away fans.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/leicester-city/scores-fixtures"
+        } else if teamName == "Leeds United" {
+            stationCode = "LDS"
+            stadiumLat = 53.7771779
+            stadiumLon = -1.5715315
+            teamStadiumName = "Elland Road"
+            teamCarInfo = "Sat Nav Postcode: LS11 0ES\n\nThe ground is well signposted. From the M621 Junction 2 take the A634, which becomes Elland Road, to the ground."
+            teamTrainInfo = "From Leeds Station the easiest way the ground is using the shuttle buses. Leave the station from the main entrance, cross the road and walk down the steps the street below, the buses go from here to the ground."
+            teamDrinkInfo = "The best bet is to drink in the City Centre before heading to the ground as the pubs by the stadium are not recommended for away fans.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/leeds-united/scores-fixtures"
         } else if teamName == "Liverpool" {
             stationCode = "SDL"
             stadiumLat = 53.4316023
@@ -166,15 +166,6 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south, over the river to the ground."
             teamDrinkInfo = "The pubs near the ground are generally home fans only, with the Meadow Club (the Notts County Supporters Club) or the Nottingham Rowing Club the only places that admit away fans. Otherwise drink in the City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/nottingham-forest/scores-fixtures"
-        } else if teamName == "Southampton" {
-            stationCode = "SOU"
-            stadiumLat = 50.9065298
-            stadiumLon = -1.3908231
-            teamStadiumName = "St Marys Stadium"
-            teamCarInfo = "Sat Nav Postcode: SO14 5FP\n\nLeave the M27 at Junction 5 and take the A335 towards Southampton. Just past Swaythling Station turn left (staying on the A335) onto Thomas Lewis Way. Continue on the A335 until you reach the junction with the A3024 (Northam Road) and turn left towards Northam. Turn right after going over the railway bridge onto the B3038 (Britannia Road) for the ground."
-            teamTrainInfo = "From Southampton Station exit onto Western Esplande, turn left and walk up the hill to Havelock Road, continue straight on, over Havelock Road, onto New Road. Walk along New Road through the parks to Northam Road, continuing along Northam Road to the ground."
-            teamDrinkInfo = "Near to the ground the traditional away pub is the King Alfred on Northam Road, which you pass walking from the City Centre. Otherwise the only other option is Yates Wine Lodge in the City Centre really.\n\nAlcohol is also available inside the stadium."
-            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/southampton/scores-fixtures"
         } else if teamName == "Tottenham Hotspur" {
             stationCode = "WHL"
             stadiumLat = 51.6031464
