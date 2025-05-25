@@ -166,6 +166,15 @@ class TeamViewController: UITabBarController {
             teamTrainInfo = "From Nottingham Station turn onto Queens Road, and the right onto London Road. Follow London Road south, over the river to the ground."
             teamDrinkInfo = "The pubs near the ground are generally home fans only, with the Meadow Club (the Notts County Supporters Club) or the Nottingham Rowing Club the only places that admit away fans. Otherwise drink in the City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/nottingham-forest/scores-fixtures"
+        } else if teamName == "Sunderland" {
+            stationCode = "SUN"
+            stadiumLat = 54.9147354
+            stadiumLon = -1.3874242
+            teamStadiumName = "Stadium of Light"
+            teamCarInfo = "Sat Nav Postcode: SR5 1SU\n\nFrom the A19, turn of onto the A1231 (Wessington Way) towards Sunderland. Stay on the A1231 until it becomes Queen's Road (B1289) and then Keir Hardie Way. The ground is on the right. There is a football park and ride at Sunderland Enterprise Park (well signed from the A1231)."
+            teamTrainInfo = "Come out of Sunderland Train station and turn left, walk through the pedestrian area to Fawcett Street, turn left and follow this road up to the Wearmouth Bridge. Carry on up North Bridge Street and turn left into Millennium Way, the ground is then straight ahead."
+            teamDrinkInfo = "The 'William Jameson' in Sunderland town centre, and two social clubs (The Sunderland Companions Club & New Democratic Club) on North Bridge Stree all admit away fans.\n\nAlcohol is also available inside the stadium."
+            teamFixtures = "https://www.bbc.co.uk/sport/football/teams/sunderland/scores-fixtures"
         } else if teamName == "Tottenham Hotspur" {
             stationCode = "WHL"
             stadiumLat = 51.6031464
