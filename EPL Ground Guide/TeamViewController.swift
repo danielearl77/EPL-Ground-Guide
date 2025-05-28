@@ -96,12 +96,12 @@ class TeamViewController: UITabBarController {
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/crystal-palace/scores-fixtures"
         } else if teamName == "Everton" {
             stationCode = "SDL"
-            stadiumLat = 53.4391966
-            stadiumLon = -2.9670169
-            teamStadiumName = "Goodison Park"
-            teamCarInfo = "Sat Nav Postcode: L4 4EL\n\nAt the end of the M62 take the A5058 towards Liverpool. Follow this road until you reach Walton Lane (A580), turn left onto Walton Lane and keep going until you reach the ground on your right."
-            teamTrainInfo = "Take a local train to Sandhills Station, from here there special football buses to the ground. Alternatively you can walk from Kirkdale station, turn right cross the railway bridge, walk up Westminster Road and turn left into Goodall Street, walk up to end of the road, crossing the junction with Carisbrooke Road and into Harlech Street. At the end of Harlech Street you will reach the main County Road (A59). Cross over County Road and go down Andrew Street. At the top of Andrew Street you can see the ground."
-            teamDrinkInfo = "The Thomas Frost on Walton Road is about a 15 minute walk away, or Bradleys Wine Bar a bit further down Walton Road. There are also a few pubs on Walton Lane, or a better bet would be to drink in Liverpool City Centre before heading to the ground.\n\nAlcohol is also available inside the stadium."
+            stadiumLat = 53.425003
+            stadiumLon = -3.002717
+            teamStadiumName = "Hill Dickinson Stadium"
+            teamCarInfo = "Sat Nav Postcode: L5 9SR\n\n"
+            teamTrainInfo = "Take a local train to Sandhills Station."
+            teamDrinkInfo = "\n\nAlcohol is also available inside the stadium."
             teamFixtures = "https://www.bbc.co.uk/sport/football/teams/everton/scores-fixtures"
         } else if teamName == "Fulham" {
             stationCode = "PUT"

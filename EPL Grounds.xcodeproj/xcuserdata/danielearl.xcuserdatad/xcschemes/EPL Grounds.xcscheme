@@ -37,6 +37,17 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1475CA912DE50FB9002AFC83"
+               BuildableName = "EPL GroundsTests.xctest"
+               BlueprintName = "EPL GroundsTests"
+               ReferencedContainer = "container:EPL Grounds.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

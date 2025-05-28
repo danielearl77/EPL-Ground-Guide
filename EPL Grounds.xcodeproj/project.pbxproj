@@ -28,6 +28,16 @@
 		52CF3D7920EBD7F9009F4013 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF3D7820EBD7F9009F4013 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1475CA962DE50FB9002AFC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52CF3D5B20EBD729009F4013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52CF3D6220EBD729009F4013;
+			remoteInfo = "EPL Grounds";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		144B7280267A6C98001ADD00 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		146736E7210CC269007ED0C9 /* TeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,7 @@
 		146736EB210CC709007ED0C9 /* TeamFixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamFixturesViewController.swift; sourceTree = "<group>"; };
 		146736EF210CCE22007ED0C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		146736F1210CD416007ED0C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1475CA922DE50FB9002AFC83 /* EPL GroundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EPL GroundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		148080A624F2C22A0048BB38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		148080AA24F2C4800048BB38 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		1489E71B2847532B007AD05F /* SupportUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportUsViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +64,18 @@
 		52CF3D7820EBD7F9009F4013 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1475CA932DE50FB9002AFC83 /* EPL GroundsTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "EPL GroundsTests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		1475CA8F2DE50FB9002AFC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52CF3D6020EBD729009F4013 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				52CF3D6520EBD729009F4013 /* EPL Ground Guide */,
+				1475CA932DE50FB9002AFC83 /* EPL GroundsTests */,
 				52CF3D6420EBD729009F4013 /* Products */,
 				14B4DDC72104DB0500338B40 /* Frameworks */,
 			);
@@ -92,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				52CF3D6320EBD729009F4013 /* EPL Grounds.app */,
+				1475CA922DE50FB9002AFC83 /* EPL GroundsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +147,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1475CA912DE50FB9002AFC83 /* EPL GroundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1475CA982DE50FB9002AFC83 /* Build configuration list for PBXNativeTarget "EPL GroundsTests" */;
+			buildPhases = (
+				1475CA8E2DE50FB9002AFC83 /* Sources */,
+				1475CA8F2DE50FB9002AFC83 /* Frameworks */,
+				1475CA902DE50FB9002AFC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1475CA972DE50FB9002AFC83 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1475CA932DE50FB9002AFC83 /* EPL GroundsTests */,
+			);
+			name = "EPL GroundsTests";
+			packageProductDependencies = (
+			);
+			productName = "EPL GroundsTests";
+			productReference = 1475CA922DE50FB9002AFC83 /* EPL GroundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		52CF3D6220EBD729009F4013 /* EPL Grounds */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52CF3D7520EBD72B009F4013 /* Build configuration list for PBXNativeTarget "EPL Grounds" */;
@@ -147,10 +194,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1530;
 				ORGANIZATIONNAME = "Macbook Pro";
 				TargetAttributes = {
+					1475CA912DE50FB9002AFC83 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 52CF3D6220EBD729009F4013;
+					};
 					52CF3D6220EBD729009F4013 = {
 						CreatedOnToolsVersion = 9.4;
 						LastSwiftMigration = 1160;
@@ -182,11 +233,19 @@
 			projectRoot = "";
 			targets = (
 				52CF3D6220EBD729009F4013 /* EPL Grounds */,
+				1475CA912DE50FB9002AFC83 /* EPL GroundsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1475CA902DE50FB9002AFC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52CF3D6120EBD729009F4013 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +260,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1475CA8E2DE50FB9002AFC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52CF3D5F20EBD729009F4013 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +286,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1475CA972DE50FB9002AFC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52CF3D6220EBD729009F4013 /* EPL Grounds */;
+			targetProxy = 1475CA962DE50FB9002AFC83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52CF3D6A20EBD72A009F4013 /* Main.storyboard */ = {
@@ -241,6 +315,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1475CA992DE50FB9002AFC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLNPC5X4J8;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "earldr.EPL-GroundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPL Grounds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPL Grounds";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		1475CA9A2DE50FB9002AFC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLNPC5X4J8;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "earldr.EPL-GroundsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPL Grounds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EPL Grounds";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
 		52CF3D7320EBD72B009F4013 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,6 +561,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1475CA982DE50FB9002AFC83 /* Build configuration list for PBXNativeTarget "EPL GroundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1475CA992DE50FB9002AFC83 /* Debug */,
+				1475CA9A2DE50FB9002AFC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52CF3D5E20EBD729009F4013 /* Build configuration list for PBXProject "EPL Grounds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
