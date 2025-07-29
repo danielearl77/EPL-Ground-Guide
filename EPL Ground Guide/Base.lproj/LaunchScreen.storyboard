@@ -15,18 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="6hD-dc-rZ9">
+                                <rect key="frame" x="0.0" y="88" width="414" height="740"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lb8-mT-5ju">
                                 <rect key="frame" x="163.66666666666666" y="438" width="86.666666666666657" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6hD-dc-rZ9" secondAttribute="trailing" id="0lf-P5-VD8"/>
                             <constraint firstItem="Lb8-mT-5ju" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2VT-ww-YIq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6hD-dc-rZ9" secondAttribute="bottom" id="IMu-Ak-kqE"/>
+                            <constraint firstItem="6hD-dc-rZ9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aaT-Uc-BoO"/>
                             <constraint firstItem="Lb8-mT-5ju" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dYp-is-e8n"/>
+                            <constraint firstItem="6hD-dc-rZ9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qRM-Y1-pkO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,4 +42,7 @@
             <point key="canvasLocation" x="49.275362318840585" y="372.99107142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="2000" height="2829"/>
+    </resources>
 </document>
